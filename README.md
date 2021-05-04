@@ -1,4 +1,4 @@
-# una lista  de video que esta en data.inc  index.php  solo lee los datos  que estan en data.inc 
-# coutdownJs uso  grid  y  otras  cosas
-# Un script de conteo que muestra un div e incluye un div cerrado. 
-# para  adjustar  solo  cambia la fetch  de fin en el script 
+index.php =>  grid  de los  videos  que estan  en data.inc 
+data.inc =>  Todos los datos  como titlio  y  link  de los  videos 
+buttons2.html = > lista  de meno de lado  
+estilos y  mas  blanco o  nergo y mas 
