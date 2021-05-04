@@ -1,0 +1,718 @@
+
+
+nav{
+
+	display: inline-block;
+    list-style-type: none;
+}
+
+:root {
+
+	--rojo: #E50914;
+
+	--fondo: white;
+
+}
+
+
+
+* {
+
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+}
+
+
+
+body {
+
+	background: var(--fondo);
+
+	font-family: 'Open Sans', sans-serif;
+
+background-color:black;
+
+color:white;
+
+
+
+}
+
+
+
+.contenedor {
+
+	width: 90%;
+
+	margin: auto;
+
+}
+
+
+
+header {
+
+	position: absolute;
+
+	right:50%;
+
+	left:10%;
+
+	display:flex; 
+
+
+
+	padding: 30px 10px;
+
+	margin-bottom:10px;
+
+
+
+}
+
+
+
+header .contenedor {
+
+	display: flex;
+
+	justify-content: space-around;
+
+	align-items: center;
+
+}
+
+
+
+header .logotipo {
+
+	font-family: 'Bebas Neue', cursive;
+
+	font-weight: normal;
+
+	color: var(--rojo);
+
+	font-size: 40px;
+
+}
+
+
+
+header nav a {
+
+	color: white;
+
+	text-decoration: none;
+
+
+
+	margin-right: 20px;
+
+	align-items:center;
+
+
+
+	justify-content: space-around;
+
+	
+
+	}
+
+
+
+header nav a:hover,
+
+header nav a.activo {
+
+	color: gold;
+
+}
+
+/* ---- ----- ----- Pelicula Principal ----- ----- ----- */
+
+.pelicula-principal {
+	
+
+	font-size: 16px;
+
+	min-height: 35.62em;
+
+	color: gold;
+
+	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(../backdrop.jpg);
+
+	background-attachment: fixed;
+
+   background-size:80% 80%;
+
+   
+
+   background-position: 50% 50%;
+
+	display: flex;
+
+    align-items:bottom;
+
+    color:white;
+
+background-repeat:no-repeat;
+
+
+
+font-family: 'Gochi Hand', cursive;
+
+}
+
+
+
+.pelicula-principal .contenedor {
+
+	margin: 0 auto;
+
+	margin-bottom: 2.25em;
+
+}
+
+
+
+.pelicula-principal .titulo {
+
+	font-weight: 600;
+
+	font-size: 3.12em;
+
+	margin-top:40px;
+
+	right:50%;
+
+	align-items:center;
+
+
+
+	left:50%;
+
+	margin-bottom: 0.4em;
+
+}
+
+
+
+.pelicula-principal .descripcion {
+
+	font-weight: normal;
+
+	font-size: 1em;
+
+	line-height: 1.75em;
+
+	max-width: 50%;
+
+	margin-bottom: 1.25em;
+
+}
+
+
+
+.boton{
+
+	
+
+	
+
+	font-family: 'Gloria Hallelujah', cursive;
+
+	background-color:transparent;
+
+
+
+	border-radius: 0.31em;
+
+	padding: 0.93em 1.87em;
+
+	color: gold;
+
+	height:10%;	
+
+	cursor: pointer;
+
+	transition: .3s ease all;
+
+	font-size: 25px;
+
+
+
+margin-top:10px;
+
+
+
+}
+
+.pelicula-principal .boton {
+
+	background: rgba(0,0,0, 0.5);
+
+	border: none;
+
+	border-radius: 0.31em;
+
+	padding: 0.93em 1.87em;
+
+	color: #fff;
+
+	margin-right: 1.25em;
+
+	cursor: pointer;
+
+	transition: .3s ease all;
+
+	font-size: 1.12em;
+
+
+
+
+
+}
+
+
+
+.pelicula-principal .boton:hover {
+
+	background: black;
+
+	color: gold;
+
+}
+
+
+
+.pelicula-principal .boton i {
+
+	margin-right: 1.25em;
+
+}
+
+.special{
+
+	
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: end;
+
+	font-family: 'Bebas Neue', cursive;
+
+	font-weight: normal;
+
+color:gold;
+
+
+
+font-size:30px;
+
+
+
+	align-items: center;
+
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+
+.contenedor-titulo-controles {
+
+	display:inline;
+	left:50%;
+
+	right:50%;
+
+	transform: translate(-50%, -50%);
+}
+
+
+
+.contenedor-titulo-controles h3 {
+
+	color:white;
+
+	font-size: 30px;
+
+}
+
+
+
+.contenedor-titulo-controles .indicadores button {
+
+	background: gold;
+
+	height: 3px;
+
+	width: 5px;
+
+	cursor: pointer;
+
+	border: none;
+
+	left:50%;
+
+	right:50%;
+
+	
+
+
+	margin-right: 10px;
+
+	
+
+	position:relative;
+
+
+
+	justify-content: end;
+
+}
+
+
+
+.contenedor-titulo-controles .indicadores button:hover,
+
+.contenedor-titulo-controles .indicadores button.activo {
+
+	background: red;
+
+}
+
+
+
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+
+.peliculas-recomendadas {
+
+	margin-bottom: 70px;
+
+width:50%; 
+
+height:50%;
+
+
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-principal {
+
+	display: flex;
+
+	align-items: center;
+
+	position: relative;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+
+
+
+    position: absolute;
+
+
+
+	border: none;
+
+	background: rgba(0,0,0,0.3);
+
+	font-size: 40px;
+
+	height: 50%;
+
+	top: calc(50% - 25%);
+
+	line-height: 40px;
+
+	width: 50px;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	z-index: 500;
+
+	transition: .2s ease all;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+
+	background: rgba(0,0,0, .9);
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+
+	left: 0;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+
+	right: 0;
+
+}
+
+
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+
+.peliculas-recomendadas .contenedor-carousel {
+
+	width: 100%;
+
+	padding: 10px 0;
+
+	overflow: hidden;
+
+	scroll-behavior: smooth;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+
+	display: flex;
+
+	flex-wrap: nowrap;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+
+	min-width: 20%;
+
+	transition: .3s ease all;
+
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+
+	transform: scale(1.2);
+
+	transform-origin: center;
+
+}
+
+
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+
+	width: 100%;
+
+	vertical-align: top;
+
+}
+
+@media screen and (max-width:300px){
+
+
+
+	header .logotipo {
+
+		margin-bottom: 10px;
+
+		font-size: 30px;
+
+	}
+
+
+
+	header .contenedor {
+
+		flex-direction: column;
+
+		text-align: center;
+
+	}
+
+
+
+	.pelicula-principal {
+
+		font-size: 14px;
+
+	}
+
+
+
+	.pelicula-principal .descripcion {
+
+		max-width: 100%;
+
+	}
+
+
+
+	.peliculas-recomendadas .contenedor-carousel {
+
+		overflow: visible;
+
+	}
+
+
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+
+		display: grid;
+
+		grid-template-columns: repeat(3, 1fr);
+
+	//	gap: 10px;
+
+	}
+
+
+
+	.peliculas-recomendadas .indicadores,
+
+	.peliculas-recomendadas .flecha-izquierda,
+
+	.peliculas-recomendadas .flecha-derecha {
+
+		display: none;
+
+	}	
+
+}
+
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+
+@media screen and (max-width: 800px) {
+
+	header .logotipo {
+
+		margin-bottom: 10px;
+
+		font-size: 30px;
+
+	}
+
+
+
+	header .contenedor {
+
+		flex-direction: column;
+
+		text-align: center;
+
+	}
+
+
+
+	.pelicula-principal {
+
+		font-size: 14px;
+.j
+	}
+
+
+
+	.pelicula-principal .descripcion {
+
+		max-width: 100%;
+
+	}
+
+
+
+	.peliculas-recomendadas .contenedor-carousel {
+
+		overflow: visible;
+
+	}
+
+
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+
+		display: grid;
+
+		grid-template-columns: repeat(3, 1fr);
+
+		gap: 20px;
+
+	}
+
+
+
+	.peliculas-recomendadas .indicadores,
+
+	.peliculas-recomendadas .flecha-izquierda,
+
+	.peliculas-recomendadas .flecha-derecha {
+
+		display: none;
+
+	}
+
+}
+
+#nav2 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	margin-right: -50%;
+	width:100%;
+		
+			border-width:1px 0;
+			list-style:none;
+			margin:0;
+			padding:0;
+
+
+display:inline; 
+
+overflow: hidden;
+
+	justify-content: space-around;
+		}
+		#nav2 li{
+			display:inline;
+		}
+		#nav2 a{
+			display:inline-block;
+			padding:10px;
+		}
+		a{
+            align-items: center;
+			color:gold;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		a:hover{
+			text-decoration:underline;
+		}
+    

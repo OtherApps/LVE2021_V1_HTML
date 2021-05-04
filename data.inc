@@ -1,0 +1,331 @@
+<?php
+
+
+
+//default 
+
+if(!isset($_GET['series'])){
+
+$titles="La señal del Profeta Jonás,Las 7 Trompetas (parte 1),Las 7 Trompetas (parte 2),Las 7 Trompetas (parte 3),Las 7 Trompetas (parte 4),Las 7 Trompetas (parte 5),Las 7 Trompetas (parte 6),Las 7 Trompetas (parte 7),Las 7 Trompetas (parte 8),Las 7 Trompetas (parte 9),Las 7 Trompetas (parte 10),Pésakj: Qué significa y cómo celebrarlo,En las vísperas de Pésakj,En las vísperas de Bikkurim,En las vísperas de Shavuót,La Vaca Roja (Parah Adumah),Shavuót 2,Tu B'AV,Sexualidad,La Esposa de YHWH - 1,La Esposa de YHWH - 2,YHWH Ekjad,YHWH Ekjad 2,YHWH Ekjad 3,La Esposa de Yeshúa 25 - YHWH Ekjad - 4,La Esposa de Yeshúa 26 - YHWH Ekjad - 5,La Esposa de Yeshúa 27 - YHWH Ekjad - 6,La Esposa de Yeshúa 28 - YHWH Ekjad - 7,La Esposa de Yeshúa 29 - YHWH Ekjad - 8,La Esposa de Yeshúa 30 - YHWH Ekjad - 9,La Esposa de Yeshúa 31 - YHWH Ekjad - 10,La Esposa de Yeshúa 32 - YHWH Ekjad - 11,La Esposa de Yeshúa 33 - YHWH Ekjad - 12,La Esposa de Yeshúa 34 - YHWH Ekjad - 13,La Esposa de Yeshúa 35 - YHWH Ekjad - 14,La Esposa de Yeshúa 36 - YHWH Ekjad - 15,La Esposa de Yeshúa 37 - YHWH Ekjad - 16,La Esposa de Yeshúa 38 - YHWH Ekjad - 17,La Esposa de Yeshúa 39 - YHWH Ekjad - 18 - Preparación para Yom Kippur,La Esposa de Yeshúa 40 - YHWH Ekjad - 19 - La Nueva Medicina,La Esposa de Yeshúa 41 - YHWH Ekjad - 20 - La Nueva Medicina 2,La Esposa de Yeshúa 42 - YHWH Ekjad 21 - La Nueva Medicina 3,La Esposa de Yeshúa 43 - YHWH Ekjad 22 - La Nueva Medicina 4, La Esposa de Yeshúa 44 - YHWH Ekjad 23 - La Nueva Medicina 5,La Esposa de Yeshúa 45 - YHWH Ekjad 24 - La Nueva Medicina 6,La Esposa de Yeshúa 46 - YHWH Ekjad 25 - La Nueva Medicina 7,La Esposa de Yeshúa 47 - YHWH Ekjad 26 - La Nueva Medicina 8,La Esposa de Yeshúa 48 - YHWH Ekjad 27 - La Nueva Medicina 9,La Esposa de Yeshúa 49 - YHWH Ekjad 28 - La Nueva Medicina 10,La Esposa de Yeshúa 50 - YHWH Ekjad 29,La Esposa de Yeshúa 51 - YHWH Ekjad 30,La Esposa de Yeshúa 52 - YHWH Ekjad 31 - ¡La última señal!,La Esposa de Yeshúa 53 - YHWH Ekjad 32 - La Serpiente de cobre,La Esposa de Yeshúa 54 - YHWH Ekjad 33 - Juan 1,La Esposa de Yeshúa 55 - YHWH Ekjad 34 - Juan 2,La Esposa de Yeshúa 56 - YHWH Ekjad 35 - Juan 3,La Esposa de Yeshúa 57 - YHWH Ekjad 36 - Juan 4,La Esposa de Yeshúa 58 - YHWH Ekjad 37 - Juan 5,La Esposa de Yeshúa 59 - YHWH Ekjad 38 - Juan 6,La Esposa de Yeshúa 60 - YHWH Ekjad 39 - Juan 7,La Esposa de Yeshúa 61 - YHWH Ekjad 40 - Juan 7,La Esposa de Yeshúa 62 - YHWH Ekjad 41 - Juan 7,La Esposa de Yeshúa 63 - YHWH Ekjad 42 - Juan 7 - Shavuót,La Esposa de Yeshúa 64 - YHWH Ekjad 43 - Juan 8,La Esposa de Yeshúa 65 - YHWH Ekjad 44 - Juan 8,La Esposa de Yeshúa 66 - YHWH Ekjad 45 - Juan 8,La Esposa de Yeshúa 67 - YHWH Ekjad 46 - Juan 8,La Esposa de Yeshúa 68 - YHWH Ekjad 47 - Juan 8,La Esposa de Yeshúa 69 - YHWH Ekjad 48 - Juan 9,La Esposa de Yeshúa 70 - YHWH Ekjad 49 - Juan 9,La Esposa de Yeshúa 71 - YHWH Ekjad 50 - Juan 9,La Esposa de Yeshúa 72 - YHWH Ekjad 51 - Juan 9,La Esposa de Yeshúa 73 - YHWH Ekjad 52 - Juan 9,La Esposa de Yeshúa 74 - YHWH Ekjad 53 - Juan 10,La Esposa de Yeshúa 75 - YHWH Ekjad 54 - Juan 10,La Esposa de Yeshúa 76 - YHWH Ekjad 55 - Juan 10,La Esposa de Yeshúa 77 - YHWH Ekjad 56 - Juan 10,La Esposa de Yeshúa 78 - YHWH Ekjad 57 - Juan 10,La Esposa de Yeshúa 79 - YHWH Ekjad 58 - Juan 11,La Esposa de Yeshúa 80 - YHWH Ekjad 59 - Juan 11";
+
+$youtube_links = "https://www.youtube.com/watch?v=bWjibeX78FQ&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=WuhKR8TP_uA&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=FKpLrG_Hbqg&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=RqumWrLZmsw&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=peYZbTU9zMs&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=QtJui1dzVaw&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=2lblqRZQ2To&list=UUZCHOKhYxUCP6Zlyv0YvX0A,https://www.youtube.com/watch?v=JTnOnRs3XA8,https://www.youtube.com/watch?v=Cw7TDp9K_Y4,https://www.youtube.com/watch?v=6eUZEh-Xvjo,https://www.youtube.com/watch?v=1khiFu50vq8,https://www.youtube.com/watch?v=ayHr3mDFF5g,https://www.youtube.com/watch?v=CAjnJf67eI8,https://www.youtube.com/watch?v=UKY_yGg2lKM,https://www.youtube.com/watch?v=8pmyNXj9pxk,https://www.youtube.com/watch?v=lButvDNGsA0&feature=youtu.be,https://www.youtube.com/watch?v=JMae1vxQ5gQ,https://www.youtube.com/watch?v=R1Bgqptp3oo,https://www.youtube.com/watch?v=EGZSY4Mwjs4,https://www.youtube.com/watch?v=P1BOkE-XVWQ,https://www.youtube.com/watch?v=GEOqsKbFTjQ,https://www.youtube.com/watch?v=ecxj465LKUY,https://www.youtube.com/watch?v=1NNihg8KlsY,https://www.youtube.com/watch?v=9dPtvak_4xw&feature=youtu.be,https://www.youtube.com/watch?v=GwfE-E3EAgw,https://www.youtube.com/watch?v=v5JUb6Gb0QQ,https://www.youtube.com/watch?v=fpFvGlzBmkU,https://www.youtube.com/watch?v=A1XyCiDn-sA,https://www.youtube.com/watch?v=-VrFWjHPrQg,https://www.youtube.com/watch?v=JgJ7GvwJrIM,https://www.youtube.com/watch?v=YCRPt7UG9QM&feature=youtu.be,http://www.youtube.com/watch?v=TFuCGi29Ba0,http://www.youtube.com/watch?v=qO7QQZF2e7Y,https://www.youtube.com/watch?v=sfxloKicCF8&feature=youtu.be,https://www.youtube.com/watch?v=A6JDeX9ZLQ0&feature=youtu.be,https://www.youtube.com/watch?v=KjqsGMMqguU,https://www.youtube.com/watch?v=dxY6LYxLaXA&feature=youtu.be,https://www.youtube.com/watch?v=CB3ytqRCFog&feature=youtu.be,https://www.youtube.com/watch?reload=9&v=6_knFKIi5Ng&feature=youtu.be,https://www.youtube.com/watch?v=ib7XAaJREuQ&feature=youtu.be&fbclid=IwAR1Ze8W6CLX_sgM7Qxr4QInkwFIyP1D4cUb30IvDLWnKUbVIc1BGA-JHdCk,http://www.youtube.com/watch?v=BijRh7pIhfc,https://www.youtube.com/watch?v=dl-u1i3CdX4&feature=youtu.be&fbclid=IwAR1S6vhcDExUpKuyfYXyQGWfIEXItYFgZ86JkECyf5OI0K49W2zasp8oL3M,https://www.youtube.com/watch?v=kWfFM0aeTpM,https://www.youtube.com/watch?v=7ADAGN9orls&feature=youtu.be&fbclid=IwAR18rXGJBmSBR6w_7YGlNIw3rDp_48hd5MI0U3ukjfx22jhktIDdeOOx99s,https://www.youtube.com/watch?v=xKXjoTcjuqM,https://www.youtube.com/watch?v=EptMVt5vz0s&feature=youtu.be&fbclid=IwAR0Iep1JrAviDRMtDkOwl4F3HfoIdVNkX8gEfIkFad0mrZbBPAqWQCeP_Vs,https://www.youtube.com/watch?v=uH09HKL2M7w&feature=youtu.be&fbclid=IwAR1C-J5UTsDEZzzVBPIucxjmcwHH0_HxCWce4lxzhfw4s550ZQdEiRL7p6E,https://www.youtube.com/watch?v=hlFzqFLssQE&feature=youtu.be&fbclid=IwAR3SZlEoFFEYehyaKVqV_DxBngSH3mjwtsUbc2y7tLf84bWOGYvgmFcGnIU,https://www.youtube.com/watch?v=zbaGi7AS7-c,https://www.youtube.com/watch?v=O-ft_vC2FQ4&feature=youtu.be&fbclid=IwAR1YUVzWA9FSg9sCD9HwWt3Xq-C5sJVFCBLHIzr3ZJ_qC1viE6NkvAwT6pE,https://www.youtube.com/watch?v=HVXPiZAqK28,https://www.youtube.com/watch?v=0sjAO2Yi0TA,https://www.youtube.com/watch?v=PkLrlNQbxbc&feature=youtu.be&fbclid=IwAR0LE2dqJ8GbxJKWoty47PaPs1SkDPIkO8McOcZp_h_DofXk2bZONRAZiPk,https://www.youtube.com/watch?v=mMwvINIRiNE&feature=youtu.be,https://www.youtube.com/watch?v=78uIKag97Co,https://www.youtube.com/watch?v=rtwoAdOMsko,https://www.youtube.com/watch?v=4gQ_MzUQe2Q,https://www.youtube.com/watch?v=pkjOWEymq1E,https://www.youtube.com/watch?v=pqwzBzgLCKE,https://www.youtube.com/watch?v=mmx8EbQopw0,https://www.youtube.com/watch?v=mZkWkt5qaV8,https://www.youtube.com/watch?v=TSdPn3jEZ3w,https://www.youtube.com/watch?v=2cunUHe6jKc,https://www.youtube.com/watch?v=619CLEPenGU,https://www.youtube.com/watch?v=jpJvKNIxGfk,https://www.youtube.com/watch?v=Xele3VjuxTY,https://www.youtube.com/watch?v=j4Aig2wh-VY,https://www.youtube.com/watch?v=zxTLefKAj9g,https://www.youtube.com/watch?v=BASUD9oNz_E,https://www.youtube.com/watch?v=x22qu9k2ePg,https://www.youtube.com/watch?v=QBTntb9CW4Q,https://www.youtube.com/watch?v=DJF4XPnGymA,https://www.youtube.com/watch?v=5tbzWYkAZ1o,https://www.youtube.com/watch?v=J6eUXNWB06I,https://www.youtube.com/watch?v=kbiQM0qCfUY,https://www.youtube.com/watch?v=4IRVsUXn79A,https://www.youtube.com/watch?v=4fuULZBDKjY,https://www.youtube.com/watch?v=nzdm1iSO-WM,https://www.youtube.com/watch?v=8MqlrwwudkI,https://www.youtube.com/watch?v=d6G9uBasJ0I";
+
+$mega_links= "https://mega.nz/file/T04kACKJ#db2Si50Yrsy7qQDAkB-iHgD6MOEKDe2nQswu7w-zrVE, https://mega.nz/file/2xhWjCrL#-csE3p6JERjsIKx1AKkTbtELMrbGT2UeUQeQUt-Urrw, https://mega.nz/file/WkxmmKhT#cXPq_6y8skjoA_wi1VL0iygky0jlE2jKKmLoBsUi3DI, https://mega.nz/file/e8p2AIAL#uKNQv5bhmQh0iYfUk20RSIGfnBvSRkmj9M9_uQJaN1Q, https://mega.nz/file/rthESYbY#VgrNAhsT9p2PKr5XTlUfpjYl4V58iQZJ5Pr8Hy3qPTI, https://mega.nz/file/29gCiKqQ#OyQBc1ezKP6K2DVZHSjdFhNQHukA7dpVy3CfdfKJJoc, https://mega.nz/file/u04wBK7A#YDLexyjZKXXN18fpU1qh_8FECQcGQNfRPPQNSKkK9mQ, https://mega.nz/file/GooSCaIL#aMMkNS_wYcnlJupVDkwow8uhsDKdBcELpOLb6sPethc, https://mega.nz/file/OxRx0Y6b#VetBoOWDMe3mKOsgg9Zx-hbx2MNnR0Q0WFxrxWLknm0, https://mega.nz/file/y0hmTQQK#1FgpyXXeLKXozpKJxHVdP6n-_Jhvvjt7M7VMD6hXdRo, https://mega.nz/file/DspARChB#l9sx5X_wacaHWBa6L-vvE0sFyRZ5VwAXuXvvkuMebtY , https://mega.nz/file/z95A3KhR#XbUDjM20LNIFxFOCG_d-XVuHfgSoyBsTYA121PB7Edc, https://mega.nz/file/68hgDITS#tc7BaNf7BSlPF-2e37KvhZoGd4Ocx4YkXv5fWBiGsTc, https://mega.nz/file/vtJVSCZa#bBlEn9nKO9DMiEpVUCHXCH2YR8jkj_VjtXMrOM_ZNjs, https://mega.nz/file/jxAXFCRD#7VXMouEZk6MkXQ21Okmuc4LB3LfoVirqiISdMzpDjNc, https://mega.nz/file/X1R1WQaC#YEeDJc7njmC-05ASb3HlE61FaJWQSWc5azWpfnBUX44, https://mega.nz/file/S8YRWIia#kvfxQbZoTfWH546P-_jSCAyykfyac4mH0y_xz_MQyzY, https://mega.nz/file/CkRl0QQS#XkNska8osrpeO0kPWwqrmMi_rB-NlRmnZTmkg1lAGRs, https://mega.nz/file/GkYHRYqb#WlgyqC8wA4krJ7j_AlcJMZP4zu-JnLW2HVkDySWEc64, https://mega.nz/file/vxZBhSBa#Rtvk_rBsvgDAB02llatk-_eWmufatHWbsuGbBYqXTcA, https://mega.nz/file/3hYXDSJJ#SZBPHOlpYmYSvyBUk4XbfisO38E5rDaZpdzc3GFqMYY, https://mega.nz/file/7QM2CIhL#DdU8hsCe35JNudDJVTGBDHo5Wt0GyP7xPhyihxdwIwM, https://mega.nz/file/KJdkHaQS#o2rPZWgy4In0UyoBhddxhRlkQ5_MP3iqcyxSVvJ1KeU , https://mega.nz/file/vcNmCY5B#M3-M61BcPAQWIDcccX2jRb1PuK8VHjY5_rmVdlpnQvM, https://mega.nz/file/aYMCzKZK#tRYKooaKzOG3hWZcqqeA8QQ_4PpUSheKlyP6m4GYC44, https://mega.nz/file/zcVwwarT#VsEr38U68sv0o9RlPZKgEhaFnxTHvhU1pVD3hELN74k, https://mega.nz/file/ORNyDKRT#gj4kclHjOj8n7eMK3Ka-i3Hj7e3CzqKekY1rccJUDY8, https://mega.nz/file/SAcC2AZJ#XtTgaBxbTLDtIWZoSFd2KmmOR3K40mckH3Zg-PMU_Nk, https://mega.nz/file/7McQDKCb#O97EqONtZSGBExpP9DwwIROOM82cRtcjWh63ZlleS_w, https://mega.nz/file/WAsjDBqQ#8KkcZo656BNCV-1QrfIje6URGR8qZiaQd_4HssqI-aY, https://mega.nz/file/bI0H3BqL#5ZM4O5auLSSTogoKUhYrtzza0k_gnMGdR62kg4oq9nE, https://mega.nz/file/CJsDxBqS#ger6ZId5H4BSES1-1QBeJZbsri-6azqRcwdr1yUCFJE, https://drive.google.com/file/d/1Po-CrFqWcF-7sZ5h3J478vs_R-YYKHOc/view?usp=sharing, https://mega.nz/file/ucllHJqS#IcIJwnDfTNpbgLYHKSJKqotWaxU4QwfjT9T2Ej7xv3g, https://mega.nz/file/Pd1BmLCR#Q8ot_wP6-X0pJ7LzDd2ASJeeB5wN9sw8t0MPR8x6kq0, https://drive.google.com/file/d/13ABAijmU0wCp32tZ1NuWU00LWf2o5pIg/view?usp=sharing, https://mega.nz/file/nE1TQDKD#O2UGMxuSvJf1PytsA3x0_X5AClqqhMEMRJiCacPOOCo, https://mega.nz/file/CQ11CRzR#uvfJDa6viz0Pdebaf00T-clCsyGPxdYqgclub4huGIY, https://mega.nz/file/eE8hiRaD#VEkhOhE9ITIPdzNw8bdHZfoYe9dvTfmov2fldFuyp38, https://mega.nz/file/mJckGaLL#-lKUKV7RRt_0x56XGTHS4_akHFQxW2wSIEskA4N0ngk, https://mega.nz/file/bUcC0QKL#BrbkTUPiDjwaB1tu7QO0t742gp_VhkfmjpZ6mBmAofk, https://mega.nz/file/DVN0hCZY#h7__SZPevpBH_22IHXAGZkrHxoE8qq-G6bks0eYLhME, https://mega.nz/file/nNVmzKLI#qGR6pZgnRoN-dXAk5Sji0nbhMQE7KIPwI0jA7nHqGhA, https://mega.nz/file/7U9XHKJC#BhagNe2a_PO4U3Lshk1oVeY5ganxwh2TLawUz4I54GQ, https://mega.nz/file/DMUGzYBa#y9VYgrvcJVDm8dp37CHg7s3d_-Ey3sMxVYV1U1IKrWg, https://mega.nz/file/TVUE1KpY#-JqDO_OKhIqtJAk5xsW9g70hnWG9MJ8V0DxgEC3PurM, https://mega.nz/file/aZUizQqR#pnAOk4_kXTD6IHMKGlTsG49QZ6mlr_wIc_47dVJCn6s, https://mega.nz/file/CBFCiITZ#JgFutBKPY20iPV8VBmEk8OIWQZGkzcudN7vaA42Cv-c, https://mega.nz/file/CBFCiITZ#JgFutBKPY20iPV8VBmEk8OIWQZGkzcudN7vaA42Cv-c, https://drive.google.com/file/d/1b6ixbN9c6ggF9F3wZdTj9EA0JfHM_TCP/view?usp=sharing,https://drive.google.com/file/d/1t8uMtQFXSYll7iBxv_WVYFrBhBT17tif/view?usp=sharing,https://drive.google.com/file/d/18Us6Tp_XSrIKIRhjSAO40aXNsW1SsWFW/view?usp=sharing,https://drive.google.com/file/d/1Vvg5qukofGWEwshUR12lpDWzHO2KXpey/view?usp=sharing,https://drive.google.com/file/d/1rEhRjUSQu0XnxDlntZqXtVUsPLcAc-Ce/view?usp=sharing,https://drive.google.com/file/d/1b6ixbN9c6ggF9F3wZdTj9EA0JfHM_TCP/view?usp=sharing , https://mega.nz/file/dPY00YbB#4XocTsKcKtCwROrJcuyby5Lc9XI0z90lWs5MsR_7-gE, https://mega.nz/file/MbZgyACC#63EWS0cBdTrS42Wpq_t3yShI2QwC9oSS28wQI9ISaNU, https://mega.nz/file/MPxkSArK#ihIUWUD9NCk-bG83yPLbR6B6ts4fAmvHI3W9QFuHCPc, https://mega.nz/file/peoW1AYZ#F83rvFMJivLbUYTfrcjlsB4t_1FPqvV4f98jVIhy030, https://mega.nz/file/MPxkSArK#ihIUWUD9NCk-bG83yPLbR6B6ts4fAmvHI3W9QFuHCPc, https://mega.nz/file/BXRwxYRA#8GDWKUfRVBeV-nl7LQXAyqM5RiE0KGF_2-qpqKUft_c, https://drive.google.com/file/d/1NTjh0jS5eghELoADZnJWOlUleepU-SJU/view?usp=sharing, https://drive.google.com/file/d/171_WnbwxcPaGchqomJxGVl1Tu6Nxd1nv/view?usp=sharing,https://drive.google.com/file/d/1tu6TYw3k2uYSOVschQslLOv_R5ukj40C/view?usp=sharing,https://drive.google.com/file/d/1iJtsMGZdcta7YwIpWqtcvfbAnbfys-R1/view?usp=sharing,https://drive.google.com/file/d/1Wps_N7NRBZ7lpcWf1SDgdAIfTGhn_qXK/view?usp=sharing,https://drive.google.com/file/d/1aalTN3pJK8d7uNQbvp94N05e5wrEeGyr/view?usp=sharing, https://drive.google.com/open?id=1g2yWB6mJ4FW1L529KeBJU3Kxfe6N3wOY, https://drive.google.com/file/d/1mrcj-4YdxuJQP9FcQzGF9M9DzmShsrz6/view?usp=sharing, https://drive.google.com/file/d/1OKadsWsiTaaIu8YwiXP8uN8g9veGq9vb/view?usp=sharing,https://drive.google.com/file/d/11RyTdncn2duKCTj60n3A1-hjtyCZkCCn/view?usp=sharing,https://drive.google.com/file/d/1FuyrwFvV4pbP8UrVc8nxKNIaqHoWW3n0/view?usp=sharing,https://drive.google.com/file/d/1yYz6eK68jGuBWSVe8ZhFlmKtRuAVhoVc/view?usp=sharing,https://drive.google.com/file/d/1kbIznVRXqHML3W902EVFZkoJpVA5gac0/view?usp=sharing,https://drive.google.com/file/d/11Fb3qC3-44L1f-AT7jHvJ49xYcVDBFoE/view?usp=sharing,https://drive.google.com/file/d/11qu6RDRfHqbv1E9bKT1YKYOU7DqhUZD4/view?usp=sharing,https://drive.google.com/file/d/10XsioNgMGPkbN5aWhB2txFzSiMFzh4Gt/view?usp=sharing,https://drive.google.com/file/d/1ITEnc0xOgEOAK6XN9wEAsedEmD64TPGx/view?usp=sharing,https://drive.google.com/file/d/1sYO1hmTz0VxKE9nd9URwjbNR24pWhYhs/view?usp=sharing, https://drive.google.com/file/d/14jSxb5-xG3iJTvjBcq05woSjQ23QUObb/view?usp=sharing";
+
+$mega_links= "https://mega.nz/file/Lg5TAZDL#ko6BBJ5Ladg-Lv0syjuDUdJFRX3dSA0BkcZhLvsXhOc,https://mega.nz/file/685x1LjZ#rILGcsl8OQBYqfxr-xfiNOsI2cAseTl1LWm0cBLyWUE,https://mega.nz/file/jswV0BCI#2Y55W9rJgedxJ1CpBRQrhWTM8m2rKpIqfW_QFlH3_SE,https://mega.nz/file/v8hhDbCK#Ra3DhDhGmk5n17GlpGJUsagQJRXV9NL-qy7pVgxQv1E,https://mega.nz/file/v4wVjZQY#YA4YqPKg0Kj0uLDgudfalKCF8eoS21LCJkQgqYQy4j8,https://mega.nz/file/fx53kJ4J#vYekund4C2aEh-8xTFNn2nsEd9n2tv_5iL-fUnfq9Lc,https://mega.nz/file/jophlLLK#94Rmiq73gceP5-xYJAtMXi2GtbHdvFY2BsfsXDyMAOw,https://mega.nz/file/jlgDwD7K#4Dzp0aFz6LOVFdrDfQZnwVNR2rIWN8jG7BiKSC9CSgU,https://mega.nz/file/m5xz0bIa#Vis7AY0b2R2evu6XoN-BR0QRyKUjUdqiW6kiTEZoEig,https://mega.nz/file/C8wzgRwS#nMBAM4u5cqd0qbmQflAsxIy1wv-90ZWgGgKQjMNIlOc,https://mega.nz/file/GsQjCCqI#gYb8j9fZPdCSFFHKcm4UpKoeiXv_kqZiK4OIs4fTzCs,https://mega.nz/file/ioYxXKoR#A5h9IhIsaCa5tX7WBlhevNyDbA7TLcI2Na5UFasZ7R8,https://mega.nz/file/zsBhxYLB#ppaBM7_HDtuy-mQBM4QUEXsCLFXTXtauCOGLV9F2NMg,https://mega.nz/file/ClZn3CRI#B14jlZKYOIexuC1JNDYw_aj0knT-65YohlMWJ3whyMo,https://mega.nz/file/6tAhharI#wPrZhRzCkNdlma70z5BIhCrYKHgMNRz6PkmLucNNsRc,https://mega.nz/file/S1BxGQ6R#g_Q7cWYfu426Q8H0k4v-hNq1uUenRAwBIfy39VRoTVw,https://mega.nz/file/W5BT2ARC#exD24STZnyvp7j9pnW2DUjGirXgVftuYFDZc45l49jE,https://mega.nz/file/3tJj2QAb#8Q1UQidY3ds7o3TcvdtqWPkOtz8p8kIBZa_TclCOuT4,https://mega.nz/file/r5QXnQgQ#kug4QDwnmh2ms4SGcbzGX46YIm-AtSaDXmn5zwfv_yM,https://mega.nz/file/rgID0Cab#tA1tltFsV2BFE1LFK3ykCOKRvOyRWRBgn3mSsK7-sf8,https://mega.nz/file/ypYTmCaQ#GYPB_h6TOVmiw9h1rmfDUDPBwITnMjkkN24_khVDnlE,https://mega.nz/file/7pIzgaiJ#t8Acjj7SzPzfIPOXThZk-4qSOhoOL1Yp7AVgb03QjG4,https://mega.nz/file/GpZVFA5D#iuXWcilL5H2sBjAnfFK4F6WBK2jhvHK24SCpoA-qma0,https://mega.nz/file/b8RzWaTT#z243ago2HewM37I-kTlB4HfuhTasc0wyIb1HaySEcSg,https://mega.nz/file/LwR10aKJ#b3Lkg6r1rZDGs_hJQpe4tEJ52073pHVkmRQ4TXMLP1s,https://mega.nz/file/LoAxnaaI#WkW_h3ylJu-36_zGxEC2Hz0n52WJ_YaCiDunPKt-sBM,https://mega.nz/file/i8JyQAgZ#7iMxOZ8E4RJ9ipisInJFPgKRWDXZjNtkfLuB3dpWpis,https://mega.nz/file/r4RQ2IAR#tnuE0Itpv8hR1CKgSPoUVViEDWYMUUCwK9A76sxsFZ8,https://mega.nz/file/vhYQ1Iga#pCk3VtUFUX2HxN0c1zqYaMLJp0RP--yerV3tXPZ4N-4,https://mega.nz/file/y8ZCUIrC#AFfMfZv2X1z08emY_9LAqnFerT8hopWAMHeKkL1qBI0,https://mega.nz/file/3tZg1Yob#2-eY3UGLtgPy21lDkNie04bix6qycOjhri9p4ofrs08,https://mega.nz/file/P9RECCLL#wTEMEkOK8wQ81ICqeecEz2d8PNJ3ryutoOrR6LYEIYg,https://mega.nz/file/zoZCiIJA#JZP2_lDHoiuyPSbiSJn1Bn0vbznusChmYrCeBoBwSs4,https://mega.nz/file/nhBgAK7S#-AggV35R9fCaFKPXOigXRiBWxubNJ8CErtvc8pyd1tY,https://mega.nz/file/OwYiRYab#Hz9_q_dT6mZ4z_DjD7EzImBVE9aLew1NcLZhDo7FwS8,https://mega.nz/file/b9YAlaAT#6ZYI_7qdAtjHbKYBPug011RVMlYFEAPiLpodYznDOKo,https://mega.nz/file/i4AyjKpC#vTyEH9iGOfTBZmJ0ZHYp8s7NHBPY8p7eeYzc1lJUE00,https://mega.nz/file/i4ZwkAja#RskfLJ8AoeuFuLA7U9qIThhKYM68S3lyUB1C55KjcQ0,https://mega.nz/file/ykZQwaJC#06_L4Tx2I6RD1QGer95MezBUb1713JtP_ItXN0DlKvI,https://mega.nz/file/KlJQASQa#qiv0KB54c0vJjh_XJTkVgDKa3HTyBmLgUrDfEGkIHdU,https://mega.nz/file/awJ0BC4K#XpwWywmHOjfUTLWy7BnfpltkQ5HB6lZ5urc0ykf60UY,https://mega.nz/file/vhRAzChQ#8a2VgLjDUnJOXtCgdkUnNiaVgiteesmmtwhXKsW2kW8,https://mega.nz/file/zwBwTIxb#EjxcuTf1yEbQKwvMAqxW29NmKD6RoAsS35eED_mLEBk,https://mega.nz/file/35QQgKqJ#QcLG5P0341UyCA0oD7iv_ypktuXmLcZds7mEhfVVLUI,https://mega.nz/file/H4JGlY7C#4dh0xc0Pra7ZhUGiNn7o6koo7bckpeK8HCfDqLXm8TY,https://mega.nz/file/uoByCYZA#fU8uNjeel8csHf67UAXoBRhkklvpMAovA7M3tjh1Jiw,https://mega.nz/file/u4BQSKJI#g5DMdzd4myGjcOg5VYIR1vFo_RnRojqUqueBWP6vIPg,https://mega.nz/file/ntASnI4T#WOrR_M_XNv2pi-32NsgdBNiBbi3I43mjVMkCAECXBKs,https://mega.nz/file/exAEUCBT#nDQwIsjzAXjO8UdAbd1mBcfig5cHDlFMazH2e0O4-CA,https://mega.nz/file/epRQAAZL#eJAtk7BRaj5GSXBf4DkbxM_UPSKhjsHJVR6QmzKhSzk,https://mega.nz/file/SlIEzSSa#Ao3m4PbFBBy6TgCHhSxgSSvc4Ls-fzeJtmAkrfDKCLw,https://mega.nz/file/qwZgkaCS#51sqoMRgREcl15MemNPEBiwePmfZAOGaY0mO2UtEUYo,https://mega.nz/file/7t5jiC4Z#eR34VfrWachsdFKTlNmYsE_5j2XY1xR539ZZy0UfnMQ,https://mega.nz/file/m1oUmAwb#fpmWZWDKkadm7o9CW_Y5HjQfvYz9jA96h1YnZkoEKb0,https://mega.nz/file/3oxkBSwB#G-7xwP-lZy_KU7-8nlRijN_bU92uvwQqii2pq7kK9C0,https://mega.nz/file/esxEzaSK#kD-rcDUfx47TkhmvAXnGHd_WZaJkRTd2AwWey0RUSBY,https://mega.nz/file/z4h1QSQL#eJxZ_DKUp84vWV5ExEzoXfWzz4n4Oi8UW0USdWi2kSk,https://mega.nz/file/XhhVAKrA#Jz3eAl_PHHbVkYoE91SpIgpzaXa25nPFceb8-QOE8rs,https://mega.nz/file/Wk511K4T#xCX5Wkx9bb5-x1Y9QhoRJ74OpcyJuN1X3jJZIO6y8us,https://mega.nz/file/X9xXSSSC#uNUkeeZlf43H4XPrNd2YerGXSklMnis5MofheixZSMg,https://mega.nz/file/qx4WyIbB#58gFY3p_4WItcXghHmJqYaadNFyci7G4dvH0M-f1t_0,https://mega.nz/file/as5khQZS#flfxia1a1PORKSkleHQovWy1unLV7J8KA6jjlhvSyNk,https://mega.nz/file/X1px0KwY#lLO2XeyXQort6jY-MbBq6LJLAoyrEZVCqm0ltEyc8zE,https://mega.nz/file/ClghCTKY#h-91DNhuWYRtlihPnlqAfa4QjcmwhnlZNUTdqGlfYyY,https://mega.nz/file/a4pDhDqC#mRkpIZKXMACxTZMGIHiKdDoGvFXi4I17NpS760dl2mA,https://mega.nz/file/iwhFHBoI#nhH1JeVEvOst7OCMek07sBRZdSiN8uslYQSR5K5Ldqw,https://mega.nz/file/3t5XiLJS#dpva5M6L-_oNSpoJ2nircV-Su6Y_nYAX5STk1RHJDbQ,https://mega.nz/file/GkgHhZTB#za12i2lG5UUAh-qjpr2fAAOPRGivItl_Y9uy7rRwZ8M,https://mega.nz/file/Dp5ljBKQ#UIekv2Gf5dtO3iwMV0wkh-enTjfcZryvEZOniK4ScI8,https://mega.nz/file/yoonGZ7Q#h0iRxCG8SrELMJJywvElRLqAlnGcBIssQc_M2GQuOZI,https://mega.nz/file/Gow3WT7C#K4BYANNsNCZF3mu8l67xH1i9wOBAwzfsaCJpUvWuv1U,https://mega.nz/file/DkpVnZxa#zj7YcJ1NUDvWOSdh0WZcRnXCIoOokEMA_aWyPEfqScI,https://mega.nz/file/r15XkDyJ#3E2jiLCjagnjaGFynj_oETep_YuLMuyJbF7v73Q2d-E,https://mega.nz/file/WkoBGBLL#OzkVSy5lb7xkgGvQqzZiYkCscrbWw8ZlhzyYhw3zK8E,https://mega.nz/file/DxxDwDjD#7usYIo07t_kRtQwKPThD2LAPUiv9JMVQLaXu15VYIN0,https://mega.nz/file/bg5hwb4B#Cm54_nSmImtI9VaWrf3Pf2XCAhBNxLbE601NhF_oHSE,https://mega.nz/file/a5x1hRpD#1tnRTU8OlyWBL8H4285DxnUExKc8BUGKp4kZZaw0nHM,https://mega.nz/file/KlwFjLIQ#gYh0u_REIE5_pDsj6W0_7arXYbtPh_75Vp6tpB1Grk4,https://mega.nz/file/D55FCLjL#m5YMBPLOmdOFooQvvDgSQP7cmGdeSTJptrS2Sr6GiOo,https://mega.nz/file/Olp3HLyb#cuH04aXoErLK4KeyW8l0RShU0YvDBBgo2O2OZRrjmng";
+
+$myserver="";
+
+}
+
+elseif($_GET['series']==1) {
+
+$titles ="Babilonia: 70 años cumplidos #1,Babilonia: 70 años cumplidos #2,Babilonia: 70 años cumplidos # 3,Babilonia: 70 años cumplidos #4,Babilonia: 70 años cumplidos #5,Babilonia: 70 años cumplidos #6,Babilonia: 70 años cumplidos #7,Babilonia: 70 años cumplidos #8,Babilonia: 70 años cumplidos# 9,Babilonia: 70 años cumplidos #10,Babilonia: 70 años cumplidos #11,Babilonia: 70 años cumplidos #12"; 
+
+$youtube_links="https://www.youtube.com/watch?v=RdAnOvML4hE,https://www.youtube.com/watch?v=AcB0MR7lsKY&feature=youtu.be&fbclid=IwAR3RxQNfAAD8QkwUG0mJ2MdkJMSGXrbjPrw6eeCXWIKtqDVqE-zJKTYmkAI,https://www.youtube.com/watch?v=clm0suVoSTA,https://www.youtube.com/watch?v=rcPFl2BpCRk&list=LLZCHOKhYxUCP6Zlyv0YvX0Am,https://www.youtube.com/watch?v=GMrKcHMWJY0,https://www.youtube.com/watch?v=V9OtD2vggD4,https://www.youtube.com/watch?v=ZoQDnLG2ioc,https://www.youtube.com/watch?v=ZBOsCRXMs8s,https://www.youtube.com/watch?v=Wacgtnh0cP4,https://www.youtube.com/watch?v=j_ceaTr3sGE,https://www.youtube.com/watch?v=7HtTnN_JDPY,https://www.youtube.com/watch?v=PEwFE88wQXk"; 
+
+$mega_links ="https://mega.nz/#!QP4BWRxR!zQDnmilQmtZIOGWm1s3JGoavQJJ6U5w5E5pzubUpl9s,https://mega.nz/#!oaxDFJAb!1iIYv-jwsbihYXaqZkrJXHqs2m_sWqNHC2DX321XAaI,https://mega.nz/#!of4HnJ4B!BN7lRf7CoZJ6IGSiW-nCAuQ8aTWWCpRt8-i7_4zAIwQ,https://mega.nz/#!EHpTxTZb!c36nkfcISnhctAOEgJkFRAcfyR-dVS970zggfTmv6qM,https://mega.nz/#!5a5TWZaZ!svw99HVEWoe1JNxB_vQ63qBGZvyFzGTs-N2b_WyAwVA,https://mega.nz/#!YHx1SBLA!R9hXd-QuinZ3UC5_Fin2FXxD-HQPjx5YJk9C_IsVFsM,https://mega.nz/#!YegX2LpY!ycBOKew6jTfW9SktSlU76pN1NYEhnjrDv8KSk9uOsyU,https://mega.nz/#!UW5BURgJ!GYhkiEi6is7KXfn03sOS4Vchy1FPwhNuKQFAWeyHdp4,https://mega.nz/#!VConADgL!fpOvdQsSvYTKnFne4DYQRH_O_8-Sg8gEdYChKPsgN-E,https://mega.nz/#!YHoD2ZiR!s0q9e3Eh0dMY1g-38x9ESfxsmmPm1Lp_EsFPKI9ZYDc,https://mega.nz/#!UehFTDxY!k-1W8Z0h6nslkxn0Xq57y2a9rWO2VW4vvT_GyYFynA  ,https://mega.nz/#!cawhiD7A!rksq2LwM0uqApM7bByQFTS6fgw4tQ7Rfqwkrk-3TxkM"; 
+
+$mp3_link=""; 
+
+$myserver="";
+
+}
+
+elseif($_GET['series']==2) {
+
+
+
+$titles="Parte 1,Parte 2"; 
+
+$youtube_links="https://www.youtube.com/watch?v=qooNTpvKpKo,https://www.youtube.com/watch?v=a5hq3aEluLI"; 
+
+$mega_links="https://mega.nz/file/bR0xwTYS#3meriuG0NKc0LlRA2hgRhFs5mYs8VWUIU9QjcZ6jKPI, https://mega.nz/file/SRl1XTLI#gLXQO7T917XdJB4xSFCD-P_66wQwEvpbeoqL_EmI_0M ";
+
+$mp3_link="https://mega.nz/file/LBtVQJaa#HYEgNcOBoD41cLlBTP1cZfGm0nscBADP8GHuHVbbJJw,https://mega.nz/file/KEMRwSyb#uw5Pip3t0ODhGlLvztK5b1Onh-WzO9-Ug0o62ZZxW9Y";
+
+$myserver="";
+
+}elseif($_GET['series']==3) {
+
+//lgbt
+
+
+
+$titles="Parte 1,Parte 2,Parte 3,Parte 4,Parte 5,Parte 6,La Higuera,Los Supremos Santos,Israel al final de los tiempos,Ap 12 - La gran señal en el cielo,Ap 12 - La gran señal en el cielo 2,En vísperas de Yom Kippur,Yom Kippur,Estoy a punto de hacer temblar los cielos y la tierra,Ap 13: El dragón y las dos bestias - 1,Ap 13: El dragón y las dos bestias - 2,Ap 13: El dragón y las dos bestias - 3,(Preparación y planeamiento),(Preparación y planeamiento 2),(¿Quiénes son estos y de dónde vienen?),(144000 = Gran multitud),(Jerusalén: una copa de vino),Cuando se le cumplan a Babilonia los 70 años - 1,(Cuando se le cumplan a Babilonia los 70 años - 2),(Cuando se le cumplan a Babilonia los 70 años - 3),Cuando se le cumplan a Babilonia los 70 años - 4),(Cuando se le cumplan a Babilonia los 70 años - 5),LGBT como en los días de Noé,La Meguillah,La Pirámide de los 6000 - 1,La Pirámide de los 6000 - 2 "; 
+
+$youtube_links="https://www.youtube.com/watch?v=8iCtbUQMOH8,https://www.youtube.com/watch?v=aFOUnNS8M9s,https://www.youtube.com/watch?v=pYkii4FWoCs,https://www.youtube.com/watch?v=uBRTGyBN3IQ,https://www.youtube.com/watch?v=JUHL_-BBvwU,https://www.youtube.com/watch?v=K1VNJYy1QuQ,https://www.youtube.com/watch?v=nd689XCdQ0Y,https://www.youtube.com/watch?v=AD3G2KMTkVA,https://www.youtube.com/watch?v=UaBaYpbfrAs,https://www.youtube.com/watch?v=vkUeUQRM2YI,https://www.youtube.com/watch?v=Wz62Q0rtwB8,https://www.youtube.com/watch?v=lJtc41FvlHM,https://www.youtube.com/watch?v=8UvNfWYXaiw,https://www.youtube.com/watch?v=A4dKqu2wvls,https://www.youtube.com/watch?v=p4-DaFwawbE,https://www.youtube.com/watch?v=8h3venkF3Xg,https://www.youtube.com/watch?v=TajPeAS0OfY,https://www.youtube.com/watch?v=3tOAUnHk_aA,https://www.youtube.com/watch?v=Xx0kABV0X3k,https://www.youtube.com/watch?v=rsNnqCn0vDc,https://www.youtube.com/watch?v=Mv3oTfmAbSA,https://www.youtube.com/watch?v=hzpV5zbYdWM&feature=youtu.be,https://www.youtube.com/watch?v=aQnkk9ehOoA,https://www.youtube.com/watch?v=kzIlwfz3eRA,https://www.youtube.com/watch?v=woiGEFHoZ4c,https://www.youtube.com/watch?v=kbxaUqeggQY,https://www.youtube.com/watch?v=QViAjBgn484,https://www.youtube.com/watch?v=0BzoWqyfj64,https://www.youtube.com/watch?v=iZiFkwl3sAo,https://www.youtube.com/watch?v=gc2H8Fr2z8Y,https://www.youtube.com/watch?v=Lf03KclsVVY"; 
+
+
+
+$mega_links="
+
+https://mega.nz/file/fw52VKxK#o-Z2fnGJwzC5opRzZTz6s5V1U-9qwTyxzxN5Yuyq4JA,https://mega.nz/file/qwgm2AgS#tdVGnwUATRqR-T1cYt6dT91uflloYlJAcZBueLtj57w,https://mega.nz/file/C4hClAAR#Us11AcUbO1bcjC_egRnl1zstez0T1J-tHVsB1arEdgw,https://mega.nz/file/C1xmkSSS#IYGsNT2hNiagOVLmwyFUPxKeFfYzn7djqAjr2W8AKXM,https://mega.nz/file/q0x0maIK#5uk3XQZhXAsfuAxlrGYlposD6tf81pvuVLb1rmhnffA,https://mega.nz/file/qwpAWALC#AwO8GpwaHEKgjt2xVTS5AfQw-__YIjOGvy0c8MH0JLc,https://mega.nz/file/rppyUKgQ#SjxsU2j5xlpZ3qvfrc0a-bd7D2EpDOJXJTWEJyMGwAs,https://mega.nz/file/79hE2I4b#YXq7URXquBReW4oX8gSzJwmV8KDnE2bb7RIaxK-85Wo,https://mega.nz/file/OwgC3QSB#28QPhvxbrcS-XjNv0XSR_4De1TYHZlUjR37mu-rA630,https://mega.nz/file/3lxGSaTD#MBHZAwDseBX9rgCChMsPZSyfLRBZYmmso8Y-bez7bu0,https://mega.nz/file/Lg5iVCSK#IzXyvFWGlmqQHgkHrfkCAxeZroVM0jxa5g1C98awWHQ,https://mega.nz/file/q5xUBCQa#lmOfgtrIzTu9Hpao1imC5MohckKhXc9wt-sfdpe0wSE,https://mega.nz/file/G9wimIQD#90hC6vXQbR6uQwPU48JIapH7a1hGILBGh7kWHuLCDwM,https://mega.nz/file/X5xmGAJb#Md4lO94vOvCr6D2NSF1IuzoXMuroF_RLir8Qe1o8ABc,https://mega.nz/file/qw4QgIaY#rGh2juVfwM3IpGdLyyADM5OZyW8_Kz8QVmE0hAxPog8,https://mega.nz/file/alpixYZT#6HKbPLG5ZcbP32rvCoDMfQMgJMewnXp95R1IzRIkHTo,https://mega.nz/file/e55iHa4A#cTA3kZ0K41U0KQNia50JRRSTtQiYSM0T3d52Eq0txW4,https://mega.nz/file/qohQDShZ#MO-g3n3kxpy0ozealvq590GlAVvGZYY6qlmT5wkYKhU,https://mega.nz/file/S1oCECiS#dsOCqh2DjvxJ90fS268pjSdA7DnF6vjetYS8qFskViI,https://mega.nz/file/e5xCwIyJ#qC-PivIskXLYCHdtEE6_vrAmMst-hyJhx2UKiQTvIj4,https://mega.nz/file/bxxUDSiZ#zzy9TIsvKJfcn5tc-q_LJINC8On-nS0nFW-JOqt8WK8,https://drive.google.com/file/d/1TcAO9zuk8OkdY6o42ckBC1hTunIjHkqa/view?usp=sharing,https://drive.google.com/file/d/1A9BUmhawS3_Qd3JwzlZ-sLoYZu-QqMBD/view?usp=sharing,https://mega.nz/file/Wkxyga5B#E5067mkNesD7uVbWfqMlGfGOhoH58v0FNT9qqd2oDAI,https://mega.nz/file/SlpSXapb#ATYPx-8kON41ZouB3eE7QgOFCqEs-KBduOXs8e4tBx0,https://mega.nz/file/ulpinCiT#ynf7IEeap6F6yb2lneoCBKz_o08I3qIrjtE6uo8Z9TY,https://mega.nz/file/rppQxYTS#WN2t9RDxhYbZX4HEzSlpH0X3QMU_ly1Bf2Qx2lJXlOQ,https://mega.nz/file/705EEKyQ#BcPtnrAvFkcYaPMmwljX1-U_v9tBjB5EptYnMdfzj3o,https://mega.nz/file/r05CEKTC#C_TC9XFAkmuvmfl_iRpOmd3vLfm5lJk_cKYuYKamJik,https://drive.google.com/file/d/1tNRqEk98eJqGxtSwzA40SqpJlE-7_Wme/view?usp=sharing,https://drive.google.com/file/d/1ac_gti6DyachF3U_aLohFAlC6ICXbAPs/view?usp=sharing";
+
+
+
+$mp3_link="https://drive.google.com/file/d/1X_OFsAnsU6NPbMMLl8FkdP_5ywcY9f6c/view?usp=sharing,https://drive.google.com/file/d/11VKJVLyceLaog3xIsbqJ1ks5__d93GMk/view?usp=sharing,https://drive.google.com/file/d/13VPbhJb6oFk--H-xjVT1rxUBndKGa7cK/view?usp=sharing,https://drive.google.com/file/d/1hU4ODvY4UFoyNSiwFVeiIw6ye2dSohcs/view?usp=sharing,https://drive.google.com/file/d/1djsZSV-ikDhodgHlowVO9RVnErq-fJqf/view?usp=sharing,https://drive.google.com/file/d/1d4RbILERxWpl04jQ8KsNw-T3iIrUkfKz/view?usp=sharing,https://drive.google.com/file/d/1RvW7QW9nx0JQr9A-YQ1Xyae-Qi71C_Ah/view?usp=sharing,https://drive.google.com/file/d/1JhAYPdb0LpKQHg-NtYIfbfiVtk4AUyIe/view?usp=sharing,https://drive.google.com/file/d/1z0PaMlyf6mi8BFXEjCf_gbF_5dyCIacK/view?usp=sharing,https://drive.google.com/file/d/1uxO_7H26D_eG1qScnksWMsQJINw5YMRB/view?usp=sharing,https://drive.google.com/file/d/1JB4mSg7MeLhUjJyYUsgOUq6rny2jvlHF/view?usp=sharing,https://drive.google.com/file/d/1VU_4pv34LrK7CleStTPGjyoGPTV_8mkz/view?usp=sharing,https://drive.google.com/file/d/1L-vVBtEpdghN3CiLdJKYGs2rhCZSPxMV/view?usp=sharing,https://drive.google.com/file/d/10uDwyNg7ujUTFDUmTooJrrMb7Ly3-a3w/view?usp=sharing,https://drive.google.com/file/d/1hINrpDssqa0Nu2nhVnSCOgRUXe7AhCrQ/view?usp=sharing,https://drive.google.com/file/d/1r0N5fpVJ10KVLha2APkdgDrzlnGjtC_H/view?usp=sharing,https://drive.google.com/file/d/1Yi6lr31XRjq3qzq6LhM_rV2h5-bqJbxf/view?usp=sharing,https://drive.google.com/file/d/1N9zNJ-RTUxt5hZ8IcyuQLt0um6wvwlNR/view?usp=sharing,https://drive.google.com/file/d/1yxNSqmCtGfZHKxyO5cmiGdCucWznTjwA/view?usp=sharing,https://drive.google.com/file/d/11p8bEjNfybxh4bTgAFCit0_XB7BGxuCm/view?usp=sharing,https://drive.google.com/file/d/1Can7k-8g2C4CQNm4kbilmtgLMPgKRY3x/view?usp=sharing,https://drive.google.com/file/d/1zGVGYHeXcfBxdYki5LxKkkoWmv2NCNcZ/view?usp=sharing,https://drive.google.com/file/d/1_cHclVR1sI-_y-yGOyb9J2nHURSvklqF/view?usp=sharing,https://drive.google.com/file/d/1ANxrVCI94Zwq9oyNPgtePfvnEDbSzJ5o/view?usp=sharing,https://drive.google.com/open?id=1oKTWlD1ellD2qrUauPf3_GrUCRTbwATq,https://drive.google.com/open?id=17ew0Io0y7D_6YT9KVivEPofaVtgGwqQW,https://drive.google.com/open?id=1ghLeoW7YvoCwDLXLO4P8gUVITwzGM3IF,https://drive.google.com/open?id=1CmJiq4M93L-6Scw7hRKKsNIgDK3DGFZI,https://drive.google.com/open?id=1xilDsSRmPo_Hyq27ae_ogIks5jxnoWu2,https://drive.google.com/open?id=1yNXFRoH6NjfoMYq9ZNHdx7ALoWbgwz7b,https://drive.google.com/open?id=11Uwr_72cGmHl95n5Kt8TtAGJTlpjPrAJ";
+
+$myserver="";
+
+}
+
+elseif($_GET['series']==4) {
+
+//writings of Paul 
+
+
+
+$titles="Estudios de los escritos de Pablo - 1 - Romanos 1,Estudios de los escritos de Pablo - 2 - Romanos 1,Estudios de los escritos de Pablo - 3 - Romanos 1,Estudios de los escritos de Pablo - 4 - Romanos 2,Estudios de los escritos de Pablo - 5 - Romanos 3,Estudios de los escritos de Pablo - 6 - La Justificación por la fe,Estudios de los escritos de Pablo - 7 - Romanos 4,Estudios de los escritos de Pablo - 8 - Romanos 4, Estudios de los escritos de Pablo 9 - Romanos 4 y 5,Estudios de los escritos de Pablo - 10 - Romanos 5,Estudios de los escritos de Pablo 11 - Romanos 5,Estudios de los escritos de Pablo - 12 - Romanos 5"; 
+
+$youtube_links="https://www.youtube.com/watch?v=z75hzkSbU4s,https://www.youtube.com/watch?v=Fus0DX-tBCc,https://www.youtube.com/watch?v=ATcgfM9LUXMm,https://www.youtube.com/watch?v=D7C3HB45lyA,https://www.youtube.com/watch?v=wtLYzNUiqHA,https://www.youtube.com/watch?v=mSuAWl_y-z4,https://www.youtube.com/watch?v=c_DWnNoLvZ4,https://www.youtube.com/watch?v=YOtfFrpwHRk,https://www.youtube.com/watch?v=zSbOX6j6hGE,https://www.youtube.com/watch?v=8FGIhoWxFaA,https://www.youtube.com/watch?v=8okd8ovUnYs,https://www.youtube.com/watch?v=9tICxde1LlI&list=PL-Nit4JXiORKq9L-_vwvx4HIR9-fRY3sA&index=12"; 
+
+$mega_links="https://mega.nz/file/QP4BWRxR#zQDnmilQmtZIOGWm1s3JGoavQJJ6U5w5E5pzubUpl9s,https://mega.nz/file/oaxDFJAb#1iIYv-jwsbihYXaqZkrJXHqs2m_sWqNHC2DX321XAaI,https://mega.nz/file/of4HnJ4B#BN7lRf7CoZJ6IGSiW-nCAuQ8aTWWCpRt8-i7_4zAIwQ,https://mega.nz/file/EHpTxTZb#c36nkfcISnhctAOEgJkFRAcfyR-dVS970zggfTmv6qM,https://mega.nz/file/5a5TWZaZ#svw99HVEWoe1JNxB_vQ63qBGZvyFzGTs-N2b_WyAwVA,https://mega.nz/file/YHx1SBLA#R9hXd-QuinZ3UC5_Fin2FXxD-HQPjx5YJk9C_IsVFsM,https://mega.nz/file/YegX2LpY#ycBOKew6jTfW9SktSlU76pN1NYEhnjrDv8KSk9uOsyU,https://mega.nz/file/UW5BURgJ#GYhkiEi6is7KXfn03sOS4Vchy1FPwhNuKQFAWeyHdp4,https://mega.nz/file/VConADgL#fpOvdQsSvYTKnFne4DYQRH_O_8-Sg8gEdYChKPsgN-E,https://mega.nz/file/YHoD2ZiR#s0q9e3Eh0dMY1g-38x9ESfxsmmPm1Lp_EsFPKI9ZYDc,https://mega.nz/file/UehFTDxY#k-1W8Z0h6nslkxn0Xq57y2a9rWO2VW4vvT_GyYFynAg,https://mega.nz/file/cawhiD7A#rksq2LwM0uqApM7bByQFTS6fgw4tQ7Rfqwkrk-3TxkM
+
+"; 
+
+$mp3_link =""; 
+
+$myserver="";
+
+
+
+}elseif($_GET['series']==5){
+
+
+
+$titles="El Apocalipsis de los hijos de Elohim -1,El Apocalipsis de los hijos de Elohim -2,El Apocalipsis de los hijos de Elohim -3,El Apocalipsis de los hijos de Elohim -4,El Apocalipsis de los hijos de Elohim -5,El Apocalipsis de los hijos de Elohim -6,El Apocalipsis de los hijos de Elohim - 7,El Apocalipsis de los hijos de Elohim - 8,El Apocalipsis de los hijos de Elohim - 9,El Apocalipsis de los hijos de Elohim - 10,El Apocalipsis de los hijos de Elohim - 11,El Apocalipsis de los hijos de Elohim - 12,El Apocalipsis de los hijos de Elohim - 13,El Apocalipsis de los hijos de Elohim 14,El Apocalipsis de los hijos de Elohim - 15";
+
+$youtube_links="https://www.youtube.com/watch?v=a_S8ebxxnu0,https://www.youtube.com/watch?v=KFjNEZrRz50,https://www.youtube.com/watch?v=Dv09ZmxwlRs,https://www.youtube.com/watch?v=V9lOia6t-dQ,https://www.youtube.com/watch?v=FWCJziM7KBY,https://www.youtube.com/watch?v=C31GHU0dstc,https://www.youtube.com/watch?v=gMQfLivkU8I,https://www.youtube.com/watch?v=SzAL-f0ZtiI,https://www.youtube.com/watch?v=00NG6276clo,https://www.youtube.com/watch?v=Uw81v6UODAU,https://www.youtube.com/watch?v=Nov8ImQYU1g,https://www.youtube.com/watch?v=S7cs71u5VB8,https://www.youtube.com/watch?v=1CQ706HbDRs,https://www.youtube.com/watch?v=f8TPcCHScXU,https://www.youtube.com/watch?v=u6-fP4NpQ20";
+
+$myserver="http://ubserver/yt/dn.php?id=3&s=2,http://ubserver/yt/dn.php?id=5&s=2,http://ubserver/yt/dn.php?id=7&s=2,http://ubserver/yt/dn.php?id=9&s=2,http://ubserver/yt/dn.php?id=12&s=2,http://ubserver/yt/dn.php?id=14&s=2,http://ubserver/yt/dn.php?id=16&s=2,http://ubserver/yt/dn.php?id=18&s=2,http://ubserver/yt/dn.php?id=3&s=2";
+
+$mega_links=" https://mega.nz/file/uggARCqA#0Xo3hpHd30w-J8xUiFwBYXaZNE25gTFaDYxayABCCFc,https://www.mediafire.com/file/kwxmdmvemeeeqn3/El_Apocalipsis_de_los_hijos_de_Elohim_-_2.mp4/file, https://www.mediafire.com/file/0o4somnmii9xm49/El_Apocalipsis_de_los_hijos_de_Elohim_-_3.mp4/file,https://www.mediafire.com/file/rs7sinn91965cc3/El_Apocalipsis_de_los_hijos_de_Elohim_-_4.mp4/file,https://www.mediafire.com/file/6813q1g6ee6crz6/El_Apocalipsis_de_los_hijos_de_Elohim_-_5.mp4/file,https://www.mediafire.com/file/vs6qv8a7ajw6eyu/El_Apocalipsis_de_los_hijos_de_Elohim_-_6.mp4/file,https://www.mediafire.com/file/h8tfzw3vwrelcqv/El_Apocalipsis_de_los_hijos_de_Elohim_-_7.mp4/file,http://www.mediafire.com/file/0ehzii8ff2e6qbk/El_Apocalipsis_de_los_hijos_de_Elohim_-_8.mp4/file,https://www.mediafire.com/file/5h71eol434sfs0e/El_Apocalipsis_de_los_hijos_de_Elohim___9.mp3/file,https://www.mediafire.com/file/gmflk8p1ob73gzq/El_Apocalipsis_de_los_hijos_de_Elohim_-_10.mp4/file,http://www.mediafire.com/file/vd7ubv7tq9iziwx/file,http://www.mediafire.com/file/vd7ubv7tq9iziwx/file?fbclid=IwAR3qb7-iuK3k439qRsaNrgv0GLT8qP3lTkImamBf1b6hW4PJ5eSLbgu3dKQ,http://www.mediafire.com/file/wyfayahfvrd6hgy/El+Apocalipsis+de+los+hijos+de+Elohim+-+12.mp4/file,http://www.mediafire.com/file/sux9jn8utq5ksra/El+Apocalipsis+de+los+hijos+de+Elohim+-+13.mp4/file,http://www.mediafire.com/file/vc954k4ngh6i5ac/file,http://www.mediafire.com/file/53g90axc1q6rixw/El+Apocalipsis+de+los+hijos+de+Elohim+-+15.mp4/file";
+
+
+
+$mp3_link="https://mega.nz/file/7tgmnCBI#4zHTuDRSe2rW6vqv0ta845Hik-KjmXAXnTTMsRdiXHw,https://www.mediafire.com/file/n8zx91k3v6qum38/El_Apocalipsis_de_los_hijos_de_Elohim_-_2.mp3/file,https://www.mediafire.com/file/opmqiro8w0pq6up/El_Apocalipsis_de_los_hijos_de_Elohim_-_3.mp3/file,https://www.mediafire.com/file/ldalujcevts2hz2/El_Apocalipsis_de_los_hijos_de_Elohim_-_4.mp3/file,https://www.mediafire.com/file/1uc6qcbw64b605p/El_Apocalipsis_de_los_hijos_de_Elohim_-_5.mp3/file,http://www.mediafire.com/file/096pub992j2jaym/El_Apocalipsis_de_los_hijos_de_Elohim_-_6.mp3/file,https://www.mediafire.com/file/ftt5agprjsx4dye/El_Apocalipsis_de_los_hijos_de_Elohim_-_7.mp3/file,https://www.mediafire.com/file/zj9gb54bkwx9xb9/El_Apocalipsis_de_los_hijos_de_Elohim_-_8.mp3/file,https://www.mediafire.com/file/5h71eol434sfs0e/El_Apocalipsis_de_los_hijos_de_Elohim___9.mp3/file,https://www.mediafire.com/file/wxcxgvmxo62lzvu/El_Apocalipsis_de_los_hijos_de_Elohim_-_10.mp3/file,http://www.mediafire.com/file/a7zhu9kxh1n2vj6/file,http://www.mediafire.com/file/18qj47kvixatwdi/file,http://www.mediafire.com/file/haklni09rty8c06/El_Apocalipsis_de_los_hijos_de_Elohim_-_13.mp3/file,http://www.mediafire.com/file/o5aty0df1uflk9r/file,http://www.mediafire.com/file/p8oaojkb1moa1lc/El+Apocalipsis+de+los+hijos+de+Elohim+-+15.mp3/file";
+
+$my_links="http://ubserver/yt/dn.php?id=3&s=2,http://ubserver/yt/dn.php?id=5&s=2,http://ubserver/yt/dn.php?id=7&s=2,http://ubserver/yt/dn.php?id=9&s=2,http://ubserver/yt/dn.php?id=12&s=2,http://ubserver/yt/dn.php?id=14&s=2,http://ubserver/yt/dn.php?id=16&s=2,http://ubserver/yt/dn.php?id=18&s=2,http://ubserver/yt/dn.php?id=20&s=2,http://ubserver:8081/id=11,http://ubserver:8081/id=12";
+
+
+
+}
+
+else if($_GET['series']==6){
+
+$titles="El infierno purificador -1,El infierno purificador -2,El infierno purificador - 3,El infierno purificador - 4";
+
+$youtube_links="https://www.youtube.com/watch?v=_A4s3ZNknEw,https://www.youtube.com/watch?v=iHs0hLURvHU,https://www.youtube.com/watch?v=d5AdY1sn0Co, https://www.youtube.com/watch?v=x9WokeQ49TQ";
+
+
+
+$mega_links="https://www.mediafire.com/file/5pmax6ota1zpkvy/El_infierno_purificador_-_1.mp4/file,https://www.mediafire.com/file/83s6bhvbd3hd90k/El+infierno+purificador+-+2.mp4/file,https://www.youtube.com/watch?v=d5AdY1sn0Co,http://www.mediafire.com/file/qka6h4g26rcinw2/El+infierno+purificador+-+4.mp4/file?fbclid=IwAR1CtIBAHYxLlgisKATRt33F78arkRM9lAuXcwoWRJ9RrAGEECXymRXL34k";
+
+
+
+$mp3_link="https://www.mediafire.com/file/fupcu2b4xex5b8t/El_infierno_purificador_-_1.mp3/file,https://www.mediafire.com/file/zttyv2r8z1hlgez/El+infierno+purificador+-+2.mp3/file,https://www.mediafire.com/file/52u64jwv1vyqvbk/El+infierno+purificador+-+3.mp3/file,http://www.mediafire.com/file/0nx7txm0y1fd9l7/El+infierno+purificador+-+4.mp3/file?fbclid=IwAR13r-dMdxYE0Jyes-L_ZQMjW3eF3N2JvHWOyQB5EoyLDwT282sRV8OzDAM";
+
+
+
+
+
+
+
+
+
+}
+
+else if($_GET['series']==7){
+
+
+
+$titles="El Cuerpo de Yeshúa - Parte 1,El Cuerpo de Yeshúa  Parte 2,El Cuerpo de Yeshúa - Parte 3,El Cuerpo de Yeshúa - Parte 4,El Cuerpo de Yeshúa - Parte 5,El Cuerpo de Yeshúa - Parte 6,El Cuerpo de Yeshúa - Parte -7 La circuncisíon,El Cuerpo de Yeshúa - Parte 8,El Cuerpo de Yeshúa - Parte 9  Los Diezmos,El Cuerpo de Yeshúa - Parte 10 - Jezabel,El Cuerpo de Yeshúa - Parte 11 - La Predestinación,El Cuerpo de Yeshúa - Parte 12,El Cuerpo de Yeshúa - Parte 13,El Cuerpo de Yeshúa - Parte 14 - Yom Kippur,El Cuerpo de Yeshúa - Parte 15 -Enoc, El Cuerpo de Yeshúa - Parte 16 - La purficación del Templo,El Cuerpo de Yeshúa 17 - La purificación del Templo 2,El Cuerpo de Yeshúa 18 - La purificación del Templo 3,El Cuerpo de Yeshúa 19 - La purificación del Templo 4,El Cuerpo de Yeshúa 20 - La purificación del Templo 5,El Cuerpo de Yeshúa 21 - La purificación del Templo 6,El Cuerpo de Yeshúa 22 - La purificación del Templo 7,El Cuerpo de Yeshúa 23 - La purificación del Templo 8,El Cuerpo de Yeshúa 24 - La purificación del Templo 9,El Cuerpo de Yeshúa 25 - Janucá y Navidad 2020 - La purificación del Templo 10,El retorno de la Navidad 2020,El propósito de la Navidad - El Cuerpo de Yeshúa 27,HELLo 2021 - El Cuerpo de Yeshúa 28,1844 - El Cuerpo de Yeshúa 29,1844 (2) - El Cuerpo de Yeshúa 30,AZAZEL - El Cuerpo de Yeshúa 31,Ellen White (1) - El Cuerpo de Yeshúa 32,Ellen White 2 - El Cuerpo de Yeshúa 33,Ellen White (3) - El Cuerpo de Yeshúa 34,Ellen White (4) - El Cuerpo de Yeshúa 35,Ellen White (5) - El Cuerpo de Yeshúa 36,Ellen White (6) - El Cuerpo de Yeshúa 37,Ellen White (7) - El Cuerpo de Yeshúa 38,Ellen White (8) - El Cuerpo de Yeshúa 39,Ellen White (9) - El Cuerpo de Yeshúa 40,Ellen White (10) - El Cuerpo de Yeshúa 41,Ellen White (11) - El Cuerpo de Yeshúa 42";
+
+
+
+$youtube_links="https://www.youtube.com/watch?v=rCSZrWd7X3I,https://www.youtube.com/watch?v=jrSLRapBwDc,https://www.youtube.com/watch?v=BNq-_5jXtbM,https://www.youtube.com/watch?v=znMDlpHyXwI,https://www.youtube.com/watch?v=3RK1uOJzGT0,https://www.youtube.com/watch?v=nxB-3_-tC5g,https://www.youtube.com/watch?v=lMaz-DLQLr0,https://www.youtube.com/watch?v=PbSNJY7oVwU,https://www.youtube.com/watch?v=-XIMmZMJ34E,https://www.youtube.com/watch?v=mshGBJJt0vk,https://www.youtube.com/watch?v=X4V6qoIsed4,https://www.youtube.com/watch?v=OiamYFegi3c,https://www.youtube.com/watch?v=zb-2exQvk_s,https://www.youtube.com/watch?v=ALlsi-7L49o,https://www.youtube.com/watch?v=vmMfoyUQd0s,https://www.youtube.com/watch?v=cSXEVTbwbks,https://www.youtube.com/watch?v=65UOBDfr6GA,https://www.youtube.com/watch?v=sEMW_k6E3q0,https://www.youtube.com/watch?v=jVTnnuHH-lE,https://www.youtube.com/watch?v=XPgQTJwZ9HM,https://www.youtube.com/watch?v=HAQD3ZwfefA,https://www.youtube.com/watch?v=hgsfNMySD34,https://www.youtube.com/watch?v=jIfKBmdMZgY,https://www.youtube.com/watch?v=4uuiW0VGEoA,https://www.youtube.com/watch?v=3gq1N46NVrU,https://www.youtube.com/watch?v=eVLsmrh2Kzk,https://www.youtube.com/watch?v=GsjWjZ3V04w,https://www.youtube.com/watch?v=stuaJYsI7B8,https://www.youtube.com/watch?v=Fyv_5N3-uh4,https://www.youtube.com/watch?v=PzOtWvZsQa4,https://www.youtube.com/watch?v=TKHaBEtGpIE,https://www.youtube.com/watch?v=qMyEzD-_kpY,https://www.youtube.com/watch?v=k2FooI33CM4,https://www.youtube.com/watch?v=D8S1VdGLPGo,https://www.youtube.com/watch?v=gP_xs25ygwg,https://www.youtube.com/watch?v=TkwnzCIfXyI,https://www.youtube.com/watch?v=GYWKoQxOmho,https://www.youtube.com/watch?v=KQ9kifH04SU,https://www.youtube.com/watch?v=QKOMXM1nXMg,https://www.youtube.com/watch?v=9Rvo_qMgjUk,https://www.youtube.com/watch?v=_iWQ_KJLDAQ,https://www.youtube.com/watch?v=Pdl8AvRgp4I";
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+$mega_links= ",,,,,,,,,,,,,,,http://www.mediafire.com/file/4i549rx288n36zs/file?fbclid=IwAR1yVLyxuXHVPnn7VenLNa8iwZw0VVZ7bqTJjtRpwM79xdLR4FZ8xkEDmGQ,http://www.mediafire.com/file/mxdsjm7blrhpm69/El_Cuerpo_de_Yesh%25C3%25BAa_17_-_La_purificaci%25C3%25B3n_del_Templo_2.mp4/file?fbclid=IwAR0K-D6XwU7lQM4y5bRAJ_cWgRUu4lxEY1tG5qiCgGsdk8XmzwHZ5SDKkBY,http://download1486.mediafire.com/u2fqyzgle0ug/9s80mqjc49dbpb4/El+Cuerpo+de+Yesh%C3%BAa+18++-+La+purificaci%C3%B3n+del+Templo+3.mp4,http://www.mediafire.com/file/har4uzdjb4ajip9/El+Cuerpo+de+Yeshúa+19+-+La+purificación+del+Templo+4.mp4/file,http://download1584.mediafire.com/zur7yjmedleg/hgl79snxkd8yxp3/El+Cuerpo+de+Yesh%C3%BAa+20++-+La+purificaci%C3%B3n+del+Templo+5.mp4,http://www.mediafire.com/file/p53h4ml74o22upq/El+Cuerpo+de+Yeshúa+21+-+La+purificación+del+Templo+6.mp4/file,http://www.mediafire.com/file/0k5837ohe0jysv1/El+Cuerpo+de+Yeshúa+22+-+La+purificación+del+Templo+7.mp4/file,http://www.mediafire.com/file/9tz5lt8sv4e46hh/El+Cuerpo+de+Yeshúa+23+-+La+purificación+del+Templo+8-jIfKBmdMZgY.mp4/file,http://www.mediafire.com/file/orzri9eb898w05a/El+Cuerpo+de+Yeshúa+24+-+La+purificación+del+Templo+9.mp4/file,https://www.mediafire.com/file/pokvscoskroz9pb/El+Cuerpo+de+Yeshúa+25+-+Janucá+y+Navidad+2020+-+La+purificación+del+Templo+10.mp4/file,https://www.mediafire.com/file/s0l74hie2xnyalh/El+retorno+de+la+Navidad+2020.mp4/file,https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1y6EYIJy9Vvxb8tN2-urYzH-SkS14eiES%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR12OYYcmSCjdFyxDVWMb_fmkHa4bMM-XIq92aFcnMT24yDq2sjaft9lmT8&h=AT1LA6vJKbINiWMOr9AyKukz2S4ylq1AlugsZC4gHGilmawk7L3eDhLhgbkhvxI6lBEujt3FieiDAsTwoOueDUQjTiwXIMCRWsHtXaPJfYfY50GVlFxLd1aAEgXwxqEc&__tn__=-UK-R&c[0]=AT24U47ZRVVWeVFBSpQG0QkNlV93obcNTkmsdE8_RE7fz7LWLIqnNj8VuIWtUM2SspGovI6pAPKg_3oE8p-gikTOe1N8Hn6-iOfxrRSPZQtPTT7WxJC7mrnAe4Zlog,https://mega.nz/file/N59WCK7K#aVjMYzDNRAZLVJ0h_SVrajhgeDhEsEec6Jqaagea28A,https://mega.nz/file/dwtgzLgS#1DpcHgujIaFbZ8LDKzk6aCQVmfSRC2yCywBvvAh_k0k,https://mega.nz/file/uJ10TDJB#77lNnk_tB9Ed5wi34w04mj1LfUsK3qBEdlcIup7AcOc,https://download939.mediafire.com/vn6muw4fjc4g/5p8qbof5p2du8hh/AZAZEL+-+El+Cuerpo+de+Yesh%C3%BAa+31.avi,https://www.mediafire.com/file/r5qjq9eppnjz4a9/Ellen+White+(1)+-+El+Cuerpo+de+Yeshúa+32.mp4/file";
+
+$mp3_link=",,,,,,,,,,,,,,,http://www.mediafire.com/file/z2i63jfr00qjj90/Yom+Kippur+2020+-+El+Cuerpo+de+Yesh%C3%BAa+16+-+La+purificaci%C3%B3n+del+Templo.mp3/file?fbclid=IwAR2agaw_-yTDo-OcX9aFgz2khB3evesi8r1Tb1zJxjDRikG_zmkXELdR0Lw,http://www.mediafire.com/file/mzaaaaa0du7a3dp/El_Cuerpo_de_Yesh%25C3%25BAa_17_-_La_purificaci%25C3%25B3n_del_Templo_2.mp3/file?fbclid=IwAR0in8BcYVuFBIcP_FKmx0U9_v3ew3BgDTHSwlvLrlcNw7caUjmL1xHUZNA,http://download855.mediafire.com/yaqk0chx63jg/kis6yq3d4mor6ds/El+Cuerpo+de+Yesh%C3%BAa+18++-+La+purificaci%C3%B3n+del+Templo+3.mp3,http://www.mediafire.com/file/w5cwh8viy7az7xr/El+Cuerpo+de+Yeshúa+19+-+La+purificación+del+Templo+4.mp3/file,http://download1351.mediafire.com/o0r9rya4ookg/ke5734ow6ufir83/El+Cuerpo+de+Yesh%C3%BAa+20++-+La+purificaci%C3%B3n+del+Templo+5.mp3,http://www.mediafire.com/file/hk0aupp63evypui/El+Cuerpo+de+Yeshúa+21+-+La+purificación+del+Templo+6.mp3/file,http://www.mediafire.com/file/v2rxh0zn6hlthz9/El+Cuerpo+de+Yeshúa+22+-+La+purificación+del+Templo+7.mp3/file,http://www.mediafire.com/file/c649i0c7oqitkj9/El+Cuerpo+de+Yeshúa+23+-+La+purificación+del+Templo+8.mp3/file,http://www.mediafire.com/file/m06980hlpur2c7f/El+Cuerpo+de+Yeshúa+24+-+La+purificación+del+Templo+9.mp3/file,https://www.mediafire.com/file/r9ji0uj7gyswv33/El+Cuerpo+de+Yeshúa+25+-+Janucá+y+Navidad+2020+-+La+purificación+del+Templo+10.mp3/file,https://www.mediafire.com/file/exxzd07kpo28yid/El+retorno+de+la+Navidad+2020.mp3/file,https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1y6EYIJy9Vvxb8tN2-urYzH-SkS14eiES%2Fview%3Fusp%3Dsharing%26fbclid%3DIwAR3zfgqLVE8JTS6U2fNd9id7VV3vWgKXKqk90PC7XSHk3EWtziwzgfJ775s&h=AT1LA6vJKbINiWMOr9AyKukz2S4ylq1AlugsZC4gHGilmawk7L3eDhLhgbkhvxI6lBEujt3FieiDAsTwoOueDUQjTiwXIMCRWsHtXaPJfYfY50GVlFxLd1aAEgXwxqEc&__tn__=-UK-R&c[0]=AT24U47ZRVVWeVFBSpQG0QkNlV93obcNTkmsdE8_RE7fz7LWLIqnNj8VuIWtUM2SspGovI6pAPKg_3oE8p-gikTOe1N8Hn6-iOfxrRSPZQtPTT7WxJC7mrnAe4Zlog,
+https://mega.nz/file/EklFgCIb#q4uqId55jLUw1K31dtZQ0QGdO2K86ptMuGBiCYBVFPo,https://mega.nz/file/Vg90BJSJ#EGSd9-W47lyNGPdPhld9DDxNz7NjX6NsA1zFJW2QORw,https://mega.nz/file/7RsWBBqB#XShq1DHR8fW-5ve3qBNx1AllkyfR6bj0D8C71gyA43A,https://www.mediafire.com/file/ylskjge0b1w7b4j/AZAZEL+-+El+Cuerpo+de+Yeshúa+31.mp3/file,https://www.mediafire.com/file/9833fdin0g6eui4/Ellen+White+(1)+-+El+Cuerpo+de+Yeshúa+32.mp3/file,https://www.mediafire.com/file/h7i08iolv60zz7a/Ellen_White_2_-_El_Cuerpo_de_Yesh%25C3%25BAa_33.mp3/file,http://www.mediafire.com/file/rghnnkb8hvv7iru/Ellen_White_%25283%2529_-_El_Cuerpo_de_Yesh%25C3%25BAa_34.mp3/file,https://www.mediafire.com/file/revmdehe5bsoo7v/Ellen_White_%25284%2529_-_El_Cuerpo_de_Yesh%25C3%25BAa_35.mp3/file,http://www.mediafire.com/file/tua07lc5xu9jii2/Ellen+White+(5)+-+El+Cuerpo+de+Yeshúa+36.mp3/file?fbclid=IwAR3xhUd7wwq-irnYHynvSKLWiVF4tzrket67SfCDK_BIJGkyqMR3amOxPo8,https://www.mediafire.com/file/0zq8c4gl57j5cnk/Ellen+White+(6)+-+El+Cuerpo+de+Yesh%C3%BAa+37.mp3/file?fbclid=IwAR2vEzOKhIck5KR9s-hS0UJBO5iVBfT9tC5zIy6mGNyKv39ujw8p0pZyLJ0,https://www.mediafire.com/file/fxrssmr9vw3plre/Ellen_White_%25287%2529_-_El_Cuerpo_de_Yesh%25C3%25BAa_38.mp3/file,https://www.mediafire.com/file/tib293mexx9vxg2/Ellen+White+(8)+-+El+Cuerpo+de+Yesh%C3%BAa+39.mp3/file?fbclid=IwAR1Z7seDgku5yn9crd0uS5ZD9BTatYoKktnKPXvIJDi4vfsCcmqfhgXrisM,https://download1477.mediafire.com/4uij3uzuq9gg/p5zhhfmdpwuzffj/Ellen+White+%289%29+-+El+Cuerpo+de+Yesh%C3%BAa+40.mp3"; 
+
+
+
+
+
+}
+
+else if($_GET['series']==8){
+
+$titles ="Torah 1 (Bereshit 1),Torah 2 (Bereshit 1 y 2),Torah 3 (Bereshit 3),Torah 4 (Bereshit 3 y 4),Torah 5 (Bereshit 5 y 6 ),Torah 6 (Bereshit 6 y 7),Torah 7 (Bereshit 7 y 8 ),Torah 8 (Bereshit 1) Geocentrismo,Torah 9 (Bereshit 9),Torah 10 (Bereshit 10-11),Torah 11 (Bereshit 12 - 14) Lej Lejá,Torah 12 (Bereshit 15) El pacto de las mitades,Torah 13 (Bereshit 16) La sierva de Sarai,Torah 14 (Bereshit 17) Brit Milah,Torah 15 (Bereshit 18) La aparición,Torah 16 (Bereshit 19) Los dos testigos: Juicio y Destrucción,Torah 17 (Bereshit 20) La Oración,Torah 18 (Bereshit 21) El Nacimiento,Torah 19 (Bereshit 22) El Sacrificio del Substituto,Torah 20 (Bereshit 23) La vida de Sarah,Torah 21 (Bereshit 24) La Esposa del Hijo,Torah 22 (Bereshit 25) Dos Naciones,Torah 23 La Tierra plana"; 
+
+$youtube_links="https://www.youtube.com/watch?v=1TyfOQzH_eE,https://www.youtube.com/watch?v=oiSiK1DWc4w,https://www.youtube.com/watch?v=Tdn-oPoG2_s,https://www.youtube.com/watch?v=rNhgvEEnPoA,https://www.youtube.com/watch?v=tLJkNouADD0&list=PL0212D2CC4FCD809D&index=5,https://www.youtube.com/watch?v=x12RPvNuvPY&list=PL0212D2CC4FCD809D&index=6,https://www.youtube.com/watch?v=uo1JKauLjEY&list=PL0212D2CC4FCD809D&index=7,https://www.youtube.com/watch?v=X29n-fupP5k&list=PL0212D2CC4FCD809D&index=8,http://www.youtube.com/watch?v=OBhUsqub5k4&list=PL0212D2CC4FCD809D&index=9,https://www.youtube.com/watch?v=inE9WSFIqE8&list=PL0212D2CC4FCD809D&index=10,https://www.youtube.com/watch?v=_H3QRtRnyyg&list=PL0212D2CC4FCD809D&index=11,https://www.youtube.com/watch?v=mP9l3yIPn30&list=PL0212D2CC4FCD809D&index=12,https://www.youtube.com/watch?v=t9akcQM64gg&list=PL0212D2CC4FCD809D&index=13,https://www.youtube.com/watch?v=M9CXzqXDMZI&list=PL0212D2CC4FCD809D&index=14,https://www.youtube.com/watch?v=9mVn9CewvZo&list=PL0212D2CC4FCD809D&index=15,https://www.youtube.com/watch?v=oDZaSm62FAQ&list=PL0212D2CC4FCD809D&index=16,https://www.youtube.com/watch?v=liJ2gVpTlno&list=PL0212D2CC4FCD809D&index=17,https://www.youtube.com/watch?v=DMOG1bbuKGc&list=PL0212D2CC4FCD809D&index=18,https://www.youtube.com/watch?v=TBcVdFd8VOY&list=PL0212D2CC4FCD809D&index=19,https://www.youtube.com/watch?v=EsHekLgFPsg&list=PL0212D2CC4FCD809D&index=20,https://www.youtube.com/watch?v=NtIAjwCvmo4&list=PL0212D2CC4FCD809D&index=21,https://www.youtube.com/watch?v=yXAXz-jkxKc&list=PL0212D2CC4FCD809D&index=22,https://www.youtube.com/watch?v=aLh1qjOQCy8"; 
+
+
+
+}
+
+
+
+else if($_GET['series']==9){
+$series="Las Fiestas de YHWH";
+$titles ="
+Las Fiestas de YHWH - parte 1 - 2019,
+Las Fiestas de YHWH - parte 2 - 2019,
+Las Fiestas de YHWH - parte 3 - Yom Kippur - 2019,
+¿Cómo celebramos Yom Kippur? 2019,
+¿Cómo celebramos Sukkot? 2019 (Las Fiestas de YHWH 4),
+Las Fiestas de YHWH - parte 5 - YHWH Ekjad,
+Las Fiestas YHWH - 6 - El Milenio,
+Preparación para Pésakj 2021 - 1,
+Preparación para Pésakj 2021 - 2,Bikkurim 2021";
+$youtube_links ="https://www.youtube.com/watch?v=NkfE_ANUKF0,https://www.youtube.com/watch?v=GGfkElkNWkw,https://www.youtube.com/watch?v=O0Uruf5_4Kc,https://www.youtube.com/watch?v=u26pyOY3m0o,https://www.youtube.com/watch?v=jX04CpAcoaE,https://www.youtube.com/watch?v=n-FMkVav4O0,https://www.youtube.com/watch?v=Rutc1CdBc5I,https://www.youtube.com/watch?v=32wcqZxsaFk,
+https://www.youtube.com/watch?v=HWy4pf5IRXg,https://www.youtube.com/watch?v=IJlkwkORD88";
+
+$mp3_link=",,,,,,,https://www.mediafire.com/file/8as7iq41dz8rwd0/Preparaci%C3%B3n+para+P%C3%A9sakj+2021+-+1.mp3/file?fbclid=IwAR3NJGJ0HOLZx4e18Nzt8y4VEJGnbQICHzMWN9cd85o3qLFFxn2CnCSLQmc,https://www.mediafire.com/file/ote9i5h6ge8b2bu/Preparaci%C3%B3n+para+P%C3%A9sakj+2021+-+2.mp3/file?fbclid=IwAR2BNEpQIFOLFBMfNhpuORcd3Q31KBCNIJwNN7-F6bJBBUJ2qydZuF8EadM,https://www.mediafire.com/file/neydce7n4j2fu51/Bikkurim_2021.mp3/file?fbclid=IwAR0-tzegqO4qJY-7sTi4K_dN0JPdZmpAIrAS4PeBN53Cn8_M9xICuxp28q0";
+
+}
+else if($_GET['series']==100){
+
+	$series ="The Body of Yeshua" ; 
+
+	
+
+	$titles="The Body of Yeshua(English audio) Part 1,The Body of Yeshua(English audio) Part 2,The Body of Yeshua(English audio) Part 3 ,The Body of Yeshua(English audio) Part 4 ,The Body of Yeshua(English audio) Part 5 ,The Body of Yeshua(English audio) Part 6 DAR, The Body of Yeshua(English audio) Part 7 ,The Body of Yeshua(English audio) Part 8 ,The Body of Yeshua (English audio) Part 9 - Tithes,The Body of Yeshua (English audio) Part 10 - Jezebel,The Body of Yeshua (English audio) Part 11 - Predestination,The Body of Yeshua (English audio) Part 12 - The sperma of the woman,The Body of Yeshua (English audio) Part 13 - The sperma of the woman 2,The Body of Yeshua Part 14 Yom Kippur ,The Body of Yeshua (English audio) Part 15 - Enoch,Yom Kippur 2020 - The purification of the Temple - The Body of Yeshua 16,"; 
+
+	
+
+	$youtube_links ="https://www.youtube.com/watch?v=HUgI3LWEG_E, https://www.youtube.com/watch?v=qMdblH29SC8,https://www.youtube.com/watch?v=f_FcSN_JF78,https://www.youtube.com/watch?v=wJ2JhvqWI40,https://www.youtube.com/watch?v=kWGtUHrRMC4,https://www.youtube.com/watch?v=BKC17DFBdkY,https://www.youtube.com/watch?v=QbWX-2PNPUY,https://www.youtube.com/watch?v=-TUTdKMgTlI,https://www.youtube.com/watch?v=Hed9X84vWKw,https://www.youtube.com/watch?v=c4vwLcw3eiU,https://www.youtube.com/watch?v=HPEoTgOz8iA,https://www.youtube.com/watch?v=VkDDzfWJCOE,https://www.youtube.com/watch?v=9VsjUsKzgjc,https://www.youtube.com/watch?v=srAKtrd7yZM,https://www.youtube.com/watch?v=vsPa2iEYkV4,https://www.youtube.com/watch?v=2wwrSomDnZ0";
+
+	
+
+}
+
+else if($_GET['series']==102)
+
+{
+
+	$series ="Babylon: 70 years fulfilled"; 
+
+	$titles="Babylon: 70 years fulfilled 1,Babylon: 70 years fulfilled 2,Babylon: 70 years fulfilled 3,Babylon: 70 years fulfilled 4,Babylon: 70 years fulfilled 5,Babylon: 70 years fulfilled 6,Babylon: 70 years fulfilled 7,Babylon: 70 years fulfilled 8"; 
+
+$youtube_links ="https://www.youtube.com/watch?v=TToadHi1T5s,https://www.youtube.com/watch?v=82BYn7j0QlY,https://www.youtube.com/watch?v=dD3s9OVHHLE,https://www.youtube.com/watch?v=R8yFpRjsWrE,https://www.youtube.com/watch?v=PacjVYzMsZk,https://www.youtube.com/watch?v=00VqEi0K_IA,https://www.youtube.com/watch?v=sKWuV2ypqV8,https://www.youtube.com/watch?v=uQhw_4Ac_2Y";
+
+	
+
+}
+
+
+
+else if($_GET['series']==103)
+
+{
+
+	$series ="The Great Tribulation"; 
+
+	$titles="The Great Tribulation #1,The Great Tribulation #2,The Great Tribulation #3 ,The Great Tribulation #4,The Great Tribulation #5,The Great Tribulation #6, The Fig Tree,The Supreme Saints,Israel at the End of Time,The Great Sign in the Sky #1 ,The Great Sign in the Sky #2, Yom Kippur's Eve, Yom Kippur,I'm Avout to Make The Heavens and the Earth Shake,Rv 13:The Dragon and the Two Beasts #1,Rv 13:The Dragon and the Two Beasts #2,Rv 13:The Dragon and the Two Beasts #3, Preparation and Planning #1,Preparation and Planning #2,Who are these - and whence have they come- 144000= Great Multitude,Jerusalem: A Cup of Wine #1, Jerusalem: A Cup of Wine #2,When the 70 years are up for Babylon -1,When the 70 years are up for Babylon #2, When the 70 years are up for Babylon -3, When the 70 years are up for Babylon -4, When the 70 years are up for Babylon -5,The Great Tribulation - Part 28 (LGBT As In the Days of Noah),The Great Tribulation - Part 29 (The Megillah),The Great Tribulation - Part 30 (The Pyramid of the 6000 - 1),The Great Tribulation - Part 31 The Pyramid of the 6000 - 2"; 
+
+	$youtube_links="https://www.youtube.com/watch?v=TTA6_clgg1s, https://www.youtube.com/watch?v=XdaWsFpkwnQ,https://www.youtube.com/watch?v=0XUAMuRfI58,https://www.youtube.com/watch?v=BDVBXoZzzbs,https://www.youtube.com/watch?v=Ef8_Y8RuwSY,https://www.youtube.com/watch?v=IExvJbGeh1M,https://www.youtube.com/watch?v=LQuOMBkcCIU,https://www.youtube.com/watch?v=a8GtQ3h_YCw,https://www.youtube.com/watch?v=E4g1ERWZ62U,https://www.youtube.com/watch?v=HrMyaCc9Qqg,https://www.youtube.com/watch?v=ss2pT2Q74aw,https://www.youtube.com/watch?v=ss2pT2Q74aw,https://www.youtube.com/watch?v=Af1_NGdl_Gs,https://www.youtube.com/watch?v=Y5fYrjH443U,https://www.youtube.com/watch?v=sIdkWbDs41A,https://www.youtube.com/watch?v=WMuNf3R0yLA,https://www.youtube.com/watch?v=eIMdQ1p376A,https://www.youtube.com/watch?v=EXIgflMB4go,https://www.youtube.com/watch?v=q3Q4orQ9OXY,https://www.youtube.com/watch?v=UuyUMcLfRdY,https://www.youtube.com/watch?v=M6ew88Ei4rM,https://www.youtube.com/watch?v=jNBzSogly8E,https://www.youtube.com/watch?v=8YnfZz6XkfU,https://www.youtube.com/watch?v=vLu0Ku0KX2M,https://www.youtube.com/watch?v=XBHNCgbMsH4,https://www.youtube.com/watch?v=wkrWDNUzQAQ,https://www.youtube.com/watch?v=IXyEYnGYlGo,https://www.youtube.com/watch?v=CrxhMMV0wgk,https://www.youtube.com/watch?v=zV2YJRmU5Dw,https://www.youtube.com/watch?v=76-ELd35Tzk,https://www.youtube.com/watch?v=Jeh-1OOaIdM ";
+
+	
+
+	
+
+}
+
+else if($_GET['series']==104)
+
+{
+
+	$series ="The Apocalypse of the sons of Elohim"; 
+
+	$titles="he Apocalypse of the sons of Elohim 1,The Apocalypse of the sons of Elohim 2,The Apocalypse of the sons of Elohim 3"; 
+
+	$youtube_links="https://www.youtube.com/watch?v=l9CnZcIAeBE,https://www.youtube.com/watch?v=Kv2a2p_GKzA,https://www.youtube.com/watch?v=oSkdBNMI4zA";
+
+	
+
+	
+
+	
+
+}
+
+else if($_GET['series']==105)
+
+{
+
+	$series ="The Purifying Hell"; 
+
+	$titles="The Purifying Hell 1,The Purifying Hell 2, The Purifying Hell 3,The Purifying Hell 4"; 
+
+	$youtube_links="https://www.youtube.com/watch?v=qpFQgErWjWM, https://www.youtube.com/watch?v=NuBHSNrTXw0,https://www.youtube.com/watch?v=ue-ZqAGvySE,https://www.youtube.com/watch?v=mOEIh9qlIAQ";
+
+	
+
+	
+
+}else if($_GET['series']==106)
+
+{
+
+	$series ="The King, the Bride and the Beast"; 
+
+	$titles="The King_the Bride and the Beast -1 "; 
+
+	$youtube_links="https://www.youtube.com/watch?v=kVQeVyQAQ4c";
+
+	
+
+	
+
+}else if($_GET['series']==107)
+
+{
+
+	$series ="Studies on Paul's Writings";
+
+	
+
+	$titles="Studies on Paul's Writings -1 ,Studies on Paul's Writings -2,Studies on Paul's Writings -3, Studies on Paul's Writings -4 Romans 2,Studies on Paul's Writings-5 Romans 3, Studies on Paul's Writings 6 - Romans 4"; 
+
+	$youtube_links="https://www.youtube.com/watch?v=EUDcFZjpkZ8,https://www.youtube.com/watch?v=i5iSgFNwk4s, https://www.youtube.com/watch?v=WG6ircqByog,https://www.youtube.com/watch?v=hOoYPLjpt68,https://www.youtube.com/watch?v=HwoZG9qlvEY,https://www.youtube.com/watch?v=aPaPIFHwtiE";
+
+}else if($_GET['series']==108)
+
+{
+
+$titles="The Bride of Yeshua #Part 1 - The Sign of the prophet Jonas!,The Bride of Yeshua 2 # The 7 Trumpets Part 1,The Bride of Yeshua 3# The 7 Trumpets Part 2,The Bride of Yeshua 4 # The 7 Trumpets Part 3,The Bride of Yeshua 5 # The 7 Trumpets Part 4,The Bride of Yeshua 6 #The 7 Trumpets Part 5,The Bride of Yeshua 7 # The 7 Trumpets Part 6,The Bride of Yeshua 8 # The 7 Trumpets Part 7,The Bride of Yeshua 9 # The 7 Trumpets Part 8,The Bride of Yeshua 10 # The 7 Trumpets Part 9,The Bride of Yeshua 11 # The 7 Trumpets Part 10,The Bride of Yeshua 12 #PESACH what it means and how to celebrate it,The Bride of Yeshua 13 - Pesakjs Eve,The Bride of Yeshua 14 - Bikkurims Eve,The Bride of Yeshua 15 - On Shavuots Eve,The Bride of Yeshua 16 - The Red Heifer Parah Adumah,The Bride of Yeshua 17 - Shavuot 2,The Bride of Yeshua 18 - Tu BAv,The Bride of Yeshua 19 - Sexuality,The Bride of Yeshua 20 - The Bride of YHWH - 1,The Bride of Yeshua 21 - The Bride of YHWH - 2, The Bride of Yeshua 22 - YHWH Ekhad 1,The Bride of Yeshua 23 - YHWH Ekhad 2,The Bride of Yeshua 24 - YHWH Ekhad 3,The Bride of Yeshua 25 - YHWH Ekhad 4,The Bride of Yeshua 26 - YHWH Ekhad 5,The Bride of Yeshua 27 - YHWH Ekhad 6,The Bride of Yeshua 28 - YHWH Ekhad 7,The Bride of Yeshua 29 - YHWH Ekhad 8,The Bride of Yeshua 30 - YHWH Ekhad 9,The Bride of Yeshua 31 - YHWH Ekhad 10 Wisdom II";
+
+$youtube_links="https://www.youtube.com/watch?v=xbavJ9RIRSk,https://www.youtube.com/watch?v=JiJ4urAbJVM,https://www.youtube.com/watch?v=KsPgPOsR6rQ,https://www.youtube.com/watch?v=JvrHtF9z7Jc,https://www.youtube.com/watch?v=hgGIjfHJq60,https://www.youtube.com/watch?v=v5INapDKUOA,https://www.youtube.com/watch?v=2CN2WrKBD7w,https://www.youtube.com/watch?v=OolCzKz4zHs,https://www.youtube.com/watch?v=S0gi620suaI,https://www.youtube.com/watch?v=emi1hveDzuY,https://www.youtube.com/watch?v=4awzT93yIFE,https://www.youtube.com/watch?v=TE5toaVTJqE,https://www.youtube.com/watch?v=D1mRO6q34bY,https://www.youtube.com/watch?v=1aBtgW7hZ4A,https://www.youtube.com/watch?v=-KA58rKjbiU,https://www.youtube.com/watch?v=JOSubjQjIQU,https://www.youtube.com/watch?v=ALYOLEyUO4o,https://www.youtube.com/watch?v=LP7YlW8bK1U,https://www.youtube.com/watch?v=t3wcFvtWZFk,https://www.youtube.com/watch?v=jEa4smMvE0M,https://www.youtube.com/watch?v=98K2Lr5G9YU,https://www.youtube.com/watch?v=lbCLx5y1J3Q,https://www.youtube.com/watch?v=18P3t03qshM,https://www.youtube.com/watch?v=7M_tWdFmRwA&,https://www.youtube.com/watch?v=GUnjX4Ssmfw,https://www.youtube.com/watch?v=Xvta3IYW8ZI,https://www.youtube.com/watch?v=UHxnIck7MBQ,https://www.youtube.com/watch?v=hxrnYoo_cDI,https://www.youtube.com/watch?v=r2TSvOWYvh8,https://www.youtube.com/watch?v=k1BqllGydSM,https://www.youtube.com/watch?v=cX9m6Xri0o8";
+
+}
+
+
+
+
+
+
+
+?>
+
