@@ -2,5 +2,5 @@
 
 # index.php =>  grid  de los  videos  que estan  en data.inc 
 # data.inc =>  Todos los datos  como titlio  y  link  de los  videos 
-# buttons2.html = > lista  de meno de lado  
+# buttons2.html = > lista  de menu de lado  
 # estilos y  mas  blanco o  nergo y mas 
