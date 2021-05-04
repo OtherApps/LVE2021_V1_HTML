@@ -1,5 +1,10 @@
 <?php
 
+// base de datos 
+// los datos   son apartado por "," 
+// series esta en el url http://localhost/index.php?series =  si no hay nada entonces  es el default 
+
+//$_GET['id']  la pagina 
 
 
 //default 
